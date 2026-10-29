@@ -1,0 +1,10 @@
+# PulseGuard — pinned loosely so a fresh laptop resolves cleanly.
+streamlit>=1.36
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+joblib>=1.3
+altair>=5.0
+# Optional: only needed if you switch the engine to "anthropic" in the sidebar.
+# The whole app runs without it.
+anthropic>=0.40

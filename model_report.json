@@ -1,0 +1,7060 @@
+{
+  "B0_never_alert": {
+    "threshold": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "alerts": 0,
+    "expected_cost_inr": 76000000,
+    "tn": 7907,
+    "fp": 0,
+    "fn": 95,
+    "tp": 0,
+    "daily_cost_inr": 5301174
+  },
+  "B1_followers_gt_50k": {
+    "threshold": 0.5,
+    "precision": 0.32,
+    "recall": 0.2526,
+    "f1": 0.2824,
+    "alerts": 75,
+    "expected_cost_inr": 56861200,
+    "tn": 7856,
+    "fp": 51,
+    "fn": 71,
+    "tp": 24,
+    "daily_cost_inr": 4367588,
+    "alerts_per_day": 31.5
+  },
+  "M1_logistic": {
+    "threshold": 0.005,
+    "precision": 0.1622,
+    "recall": 0.9936,
+    "f1": 0.2788,
+    "alerts": 1924,
+    "expected_cost_inr": 3534400,
+    "tn": 6076,
+    "fp": 1612,
+    "fn": 2,
+    "tp": 312,
+    "roc_auc": 0.9717,
+    "pr_auc": 0.6652,
+    "brier": 0.0209,
+    "at_0_50": {
+      "threshold": 0.5,
+      "precision": 0.7022,
+      "recall": 0.5032,
+      "f1": 0.5863,
+      "alerts": 225,
+      "expected_cost_inr": 124880400,
+      "tn": 7621,
+      "fp": 67,
+      "fn": 156,
+      "tp": 158
+    },
+    "cost_curve": [
+      {
+        "threshold": 0.005,
+        "cost": 3534400
+      },
+      {
+        "threshold": 0.01,
+        "cost": 6553200
+      },
+      {
+        "threshold": 0.015,
+        "cost": 7203200
+      },
+      {
+        "threshold": 0.02,
+        "cost": 14067200
+      },
+      {
+        "threshold": 0.025,
+        "cost": 15555600
+      },
+      {
+        "threshold": 0.03,
+        "cost": 17841600
+      },
+      {
+        "threshold": 0.035,
+        "cost": 19385200
+      },
+      {
+        "threshold": 0.04,
+        "cost": 20155200
+      },
+      {
+        "threshold": 0.045,
+        "cost": 20916800
+      },
+      {
+        "threshold": 0.05,
+        "cost": 23289200
+      },
+      {
+        "threshold": 0.055,
+        "cost": 24062800
+      },
+      {
+        "threshold": 0.06,
+        "cost": 24034000
+      },
+      {
+        "threshold": 0.065,
+        "cost": 24810000
+      },
+      {
+        "threshold": 0.07,
+        "cost": 25578800
+      },
+      {
+        "threshold": 0.075,
+        "cost": 27887600
+      },
+      {
+        "threshold": 0.08,
+        "cost": 31830000
+      },
+      {
+        "threshold": 0.085,
+        "cost": 33419200
+      },
+      {
+        "threshold": 0.09,
+        "cost": 35782000
+      },
+      {
+        "threshold": 0.095,
+        "cost": 35778400
+      },
+      {
+        "threshold": 0.1,
+        "cost": 37348400
+      },
+      {
+        "threshold": 0.105,
+        "cost": 39731600
+      },
+      {
+        "threshold": 0.11,
+        "cost": 39725600
+      },
+      {
+        "threshold": 0.115,
+        "cost": 40504000
+      },
+      {
+        "threshold": 0.12,
+        "cost": 42092000
+      },
+      {
+        "threshold": 0.125,
+        "cost": 42881200
+      },
+      {
+        "threshold": 0.13,
+        "cost": 43662000
+      },
+      {
+        "threshold": 0.135,
+        "cost": 46035600
+      },
+      {
+        "threshold": 0.14,
+        "cost": 46829600
+      },
+      {
+        "threshold": 0.145,
+        "cost": 46828400
+      },
+      {
+        "threshold": 0.15,
+        "cost": 46826000
+      },
+      {
+        "threshold": 0.155,
+        "cost": 49223600
+      },
+      {
+        "threshold": 0.16,
+        "cost": 50810400
+      },
+      {
+        "threshold": 0.165,
+        "cost": 52397200
+      },
+      {
+        "threshold": 0.17,
+        "cost": 53188800
+      },
+      {
+        "threshold": 0.175,
+        "cost": 53988800
+      },
+      {
+        "threshold": 0.18,
+        "cost": 53988800
+      },
+      {
+        "threshold": 0.185,
+        "cost": 55579200
+      },
+      {
+        "threshold": 0.19,
+        "cost": 57176800
+      },
+      {
+        "threshold": 0.195,
+        "cost": 59542000
+      },
+      {
+        "threshold": 0.2,
+        "cost": 60337200
+      },
+      {
+        "threshold": 0.205,
+        "cost": 63509600
+      },
+      {
+        "threshold": 0.21,
+        "cost": 63507200
+      },
+      {
+        "threshold": 0.215,
+        "cost": 63507200
+      },
+      {
+        "threshold": 0.22,
+        "cost": 77831600
+      },
+      {
+        "threshold": 0.225,
+        "cost": 77831600
+      },
+      {
+        "threshold": 0.23,
+        "cost": 81016000
+      },
+      {
+        "threshold": 0.235,
+        "cost": 81814800
+      },
+      {
+        "threshold": 0.24,
+        "cost": 81814800
+      },
+      {
+        "threshold": 0.245,
+        "cost": 83411200
+      },
+      {
+        "threshold": 0.25,
+        "cost": 84211200
+      },
+      {
+        "threshold": 0.255,
+        "cost": 85800400
+      },
+      {
+        "threshold": 0.26,
+        "cost": 86598000
+      },
+      {
+        "threshold": 0.265,
+        "cost": 86594400
+      },
+      {
+        "threshold": 0.27,
+        "cost": 87387200
+      },
+      {
+        "threshold": 0.275,
+        "cost": 87387200
+      },
+      {
+        "threshold": 0.28,
+        "cost": 87380000
+      },
+      {
+        "threshold": 0.285,
+        "cost": 88978800
+      },
+      {
+        "threshold": 0.29,
+        "cost": 90575200
+      },
+      {
+        "threshold": 0.295,
+        "cost": 96951200
+      },
+      {
+        "threshold": 0.3,
+        "cost": 96950000
+      },
+      {
+        "threshold": 0.305,
+        "cost": 98544000
+      },
+      {
+        "threshold": 0.31,
+        "cost": 98541600
+      },
+      {
+        "threshold": 0.315,
+        "cost": 98539200
+      },
+      {
+        "threshold": 0.32,
+        "cost": 98539200
+      },
+      {
+        "threshold": 0.325,
+        "cost": 98539200
+      },
+      {
+        "threshold": 0.33,
+        "cost": 102533200
+      },
+      {
+        "threshold": 0.335,
+        "cost": 103333200
+      },
+      {
+        "threshold": 0.34,
+        "cost": 105726000
+      },
+      {
+        "threshold": 0.345,
+        "cost": 108123600
+      },
+      {
+        "threshold": 0.35,
+        "cost": 108922400
+      },
+      {
+        "threshold": 0.355,
+        "cost": 108921200
+      },
+      {
+        "threshold": 0.36,
+        "cost": 108920000
+      },
+      {
+        "threshold": 0.365,
+        "cost": 108918800
+      },
+      {
+        "threshold": 0.37,
+        "cost": 108918800
+      },
+      {
+        "threshold": 0.375,
+        "cost": 108918800
+      },
+      {
+        "threshold": 0.38,
+        "cost": 109717600
+      },
+      {
+        "threshold": 0.385,
+        "cost": 109717600
+      },
+      {
+        "threshold": 0.39,
+        "cost": 112112800
+      },
+      {
+        "threshold": 0.395,
+        "cost": 112111600
+      },
+      {
+        "threshold": 0.4,
+        "cost": 112111600
+      },
+      {
+        "threshold": 0.405,
+        "cost": 112911600
+      },
+      {
+        "threshold": 0.41,
+        "cost": 113709200
+      },
+      {
+        "threshold": 0.415,
+        "cost": 113705600
+      },
+      {
+        "threshold": 0.42,
+        "cost": 113705600
+      },
+      {
+        "threshold": 0.425,
+        "cost": 113704400
+      },
+      {
+        "threshold": 0.43,
+        "cost": 113704400
+      },
+      {
+        "threshold": 0.435,
+        "cost": 115303200
+      },
+      {
+        "threshold": 0.44,
+        "cost": 115303200
+      },
+      {
+        "threshold": 0.445,
+        "cost": 116897200
+      },
+      {
+        "threshold": 0.45,
+        "cost": 116897200
+      },
+      {
+        "threshold": 0.455,
+        "cost": 116897200
+      },
+      {
+        "threshold": 0.46,
+        "cost": 116897200
+      },
+      {
+        "threshold": 0.465,
+        "cost": 116897200
+      },
+      {
+        "threshold": 0.47,
+        "cost": 124884000
+      },
+      {
+        "threshold": 0.475,
+        "cost": 124881600
+      },
+      {
+        "threshold": 0.48,
+        "cost": 124881600
+      },
+      {
+        "threshold": 0.485,
+        "cost": 124881600
+      },
+      {
+        "threshold": 0.49,
+        "cost": 124881600
+      },
+      {
+        "threshold": 0.495,
+        "cost": 124880400
+      },
+      {
+        "threshold": 0.5,
+        "cost": 124880400
+      },
+      {
+        "threshold": 0.505,
+        "cost": 134472000
+      },
+      {
+        "threshold": 0.51,
+        "cost": 134472000
+      },
+      {
+        "threshold": 0.515,
+        "cost": 134472000
+      },
+      {
+        "threshold": 0.52,
+        "cost": 134472000
+      },
+      {
+        "threshold": 0.525,
+        "cost": 134472000
+      },
+      {
+        "threshold": 0.53,
+        "cost": 140055200
+      },
+      {
+        "threshold": 0.535,
+        "cost": 144052800
+      },
+      {
+        "threshold": 0.54,
+        "cost": 144052800
+      },
+      {
+        "threshold": 0.545,
+        "cost": 144852800
+      },
+      {
+        "threshold": 0.55,
+        "cost": 146446800
+      },
+      {
+        "threshold": 0.555,
+        "cost": 148044400
+      },
+      {
+        "threshold": 0.56,
+        "cost": 148844400
+      },
+      {
+        "threshold": 0.565,
+        "cost": 148843200
+      },
+      {
+        "threshold": 0.57,
+        "cost": 149643200
+      },
+      {
+        "threshold": 0.575,
+        "cost": 153637200
+      },
+      {
+        "threshold": 0.58,
+        "cost": 153637200
+      },
+      {
+        "threshold": 0.585,
+        "cost": 153637200
+      },
+      {
+        "threshold": 0.59,
+        "cost": 153637200
+      },
+      {
+        "threshold": 0.595,
+        "cost": 163227600
+      },
+      {
+        "threshold": 0.6,
+        "cost": 164026400
+      },
+      {
+        "threshold": 0.605,
+        "cost": 164026400
+      },
+      {
+        "threshold": 0.61,
+        "cost": 164026400
+      },
+      {
+        "threshold": 0.615,
+        "cost": 164026400
+      },
+      {
+        "threshold": 0.62,
+        "cost": 164026400
+      },
+      {
+        "threshold": 0.625,
+        "cost": 164025200
+      },
+      {
+        "threshold": 0.63,
+        "cost": 164025200
+      },
+      {
+        "threshold": 0.635,
+        "cost": 164025200
+      },
+      {
+        "threshold": 0.64,
+        "cost": 164825200
+      },
+      {
+        "threshold": 0.645,
+        "cost": 166425200
+      },
+      {
+        "threshold": 0.65,
+        "cost": 169621600
+      },
+      {
+        "threshold": 0.655,
+        "cost": 174418000
+      },
+      {
+        "threshold": 0.66,
+        "cost": 177618000
+      },
+      {
+        "threshold": 0.665,
+        "cost": 180016800
+      },
+      {
+        "threshold": 0.67,
+        "cost": 183215600
+      },
+      {
+        "threshold": 0.675,
+        "cost": 184015600
+      },
+      {
+        "threshold": 0.68,
+        "cost": 185614400
+      },
+      {
+        "threshold": 0.685,
+        "cost": 185614400
+      },
+      {
+        "threshold": 0.69,
+        "cost": 185614400
+      },
+      {
+        "threshold": 0.695,
+        "cost": 187214400
+      },
+      {
+        "threshold": 0.7,
+        "cost": 187214400
+      },
+      {
+        "threshold": 0.705,
+        "cost": 188814400
+      },
+      {
+        "threshold": 0.71,
+        "cost": 189614400
+      },
+      {
+        "threshold": 0.715,
+        "cost": 189614400
+      },
+      {
+        "threshold": 0.72,
+        "cost": 191214400
+      },
+      {
+        "threshold": 0.725,
+        "cost": 195210800
+      },
+      {
+        "threshold": 0.73,
+        "cost": 195210800
+      },
+      {
+        "threshold": 0.735,
+        "cost": 195210800
+      },
+      {
+        "threshold": 0.74,
+        "cost": 198409600
+      },
+      {
+        "threshold": 0.745,
+        "cost": 198408400
+      },
+      {
+        "threshold": 0.75,
+        "cost": 198408400
+      },
+      {
+        "threshold": 0.755,
+        "cost": 200007200
+      },
+      {
+        "threshold": 0.76,
+        "cost": 200007200
+      },
+      {
+        "threshold": 0.765,
+        "cost": 201607200
+      },
+      {
+        "threshold": 0.77,
+        "cost": 202406000
+      },
+      {
+        "threshold": 0.775,
+        "cost": 202406000
+      },
+      {
+        "threshold": 0.78,
+        "cost": 202406000
+      },
+      {
+        "threshold": 0.785,
+        "cost": 202406000
+      },
+      {
+        "threshold": 0.79,
+        "cost": 202406000
+      },
+      {
+        "threshold": 0.795,
+        "cost": 203206000
+      },
+      {
+        "threshold": 0.8,
+        "cost": 203206000
+      },
+      {
+        "threshold": 0.805,
+        "cost": 206403600
+      },
+      {
+        "threshold": 0.81,
+        "cost": 206403600
+      },
+      {
+        "threshold": 0.815,
+        "cost": 206403600
+      },
+      {
+        "threshold": 0.82,
+        "cost": 208803600
+      },
+      {
+        "threshold": 0.825,
+        "cost": 208803600
+      },
+      {
+        "threshold": 0.83,
+        "cost": 209603600
+      },
+      {
+        "threshold": 0.835,
+        "cost": 209603600
+      },
+      {
+        "threshold": 0.84,
+        "cost": 209603600
+      },
+      {
+        "threshold": 0.845,
+        "cost": 209603600
+      },
+      {
+        "threshold": 0.85,
+        "cost": 209603600
+      },
+      {
+        "threshold": 0.855,
+        "cost": 209603600
+      },
+      {
+        "threshold": 0.86,
+        "cost": 209602400
+      },
+      {
+        "threshold": 0.865,
+        "cost": 211202400
+      },
+      {
+        "threshold": 0.87,
+        "cost": 211202400
+      },
+      {
+        "threshold": 0.875,
+        "cost": 211202400
+      },
+      {
+        "threshold": 0.88,
+        "cost": 212002400
+      },
+      {
+        "threshold": 0.885,
+        "cost": 212002400
+      },
+      {
+        "threshold": 0.89,
+        "cost": 212002400
+      },
+      {
+        "threshold": 0.895,
+        "cost": 212002400
+      },
+      {
+        "threshold": 0.9,
+        "cost": 212002400
+      },
+      {
+        "threshold": 0.905,
+        "cost": 212802400
+      },
+      {
+        "threshold": 0.91,
+        "cost": 212802400
+      },
+      {
+        "threshold": 0.915,
+        "cost": 215201200
+      },
+      {
+        "threshold": 0.92,
+        "cost": 215201200
+      },
+      {
+        "threshold": 0.925,
+        "cost": 216001200
+      },
+      {
+        "threshold": 0.93,
+        "cost": 216001200
+      },
+      {
+        "threshold": 0.935,
+        "cost": 216001200
+      },
+      {
+        "threshold": 0.94,
+        "cost": 216001200
+      },
+      {
+        "threshold": 0.945,
+        "cost": 216001200
+      },
+      {
+        "threshold": 0.95,
+        "cost": 218401200
+      },
+      {
+        "threshold": 0.951,
+        "cost": 218401200
+      },
+      {
+        "threshold": 0.952,
+        "cost": 218401200
+      },
+      {
+        "threshold": 0.953,
+        "cost": 218401200
+      },
+      {
+        "threshold": 0.954,
+        "cost": 218401200
+      },
+      {
+        "threshold": 0.955,
+        "cost": 219201200
+      },
+      {
+        "threshold": 0.956,
+        "cost": 219201200
+      },
+      {
+        "threshold": 0.957,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.958,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.959,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.96,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.961,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.962,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.963,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.964,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.965,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.966,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.967,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.968,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.969,
+        "cost": 237601200
+      },
+      {
+        "threshold": 0.97,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.971,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.972,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.973,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.974,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.975,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.976,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.977,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.978,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.979,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.98,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.981,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.982,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.983,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.984,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.985,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.986,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.987,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.988,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.989,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.99,
+        "cost": 243200000
+      },
+      {
+        "threshold": 0.991,
+        "cost": 243200000
+      },
+      {
+        "threshold": 0.992,
+        "cost": 244800000
+      },
+      {
+        "threshold": 0.993,
+        "cost": 247200000
+      },
+      {
+        "threshold": 0.994,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.995,
+        "cost": 249600000
+      },
+      {
+        "threshold": 0.996,
+        "cost": 249600000
+      },
+      {
+        "threshold": 0.997,
+        "cost": 250400000
+      },
+      {
+        "threshold": 0.998,
+        "cost": 250400000
+      },
+      {
+        "threshold": 0.999,
+        "cost": 250400000
+      }
+    ],
+    "economics": [
+      {
+        "threshold": 0.005,
+        "alerts_per_day": 951.1,
+        "analysts_required": 24,
+        "missed_crises_per_day": 0.0,
+        "missed_cost_per_day_inr": 0,
+        "daily_cost_inr": 1158239,
+        "precision": 0.0524,
+        "recall": 1.0
+      },
+      {
+        "threshold": 0.01,
+        "alerts_per_day": 876.5,
+        "analysts_required": 22,
+        "missed_crises_per_day": 0.0,
+        "missed_cost_per_day_inr": 0,
+        "daily_cost_inr": 1062401,
+        "precision": 0.0569,
+        "recall": 1.0
+      },
+      {
+        "threshold": 0.015,
+        "alerts_per_day": 815.1,
+        "analysts_required": 21,
+        "missed_crises_per_day": 0.0,
+        "missed_cost_per_day_inr": 0,
+        "daily_cost_inr": 985510,
+        "precision": 0.0612,
+        "recall": 1.0
+      },
+      {
+        "threshold": 0.02,
+        "alerts_per_day": 671.3,
+        "analysts_required": 17,
+        "missed_crises_per_day": 1.57,
+        "missed_cost_per_day_inr": 239340,
+        "daily_cost_inr": 1041363,
+        "precision": 0.0719,
+        "recall": 0.9684
+      },
+      {
+        "threshold": 0.025,
+        "alerts_per_day": 627.7,
+        "analysts_required": 16,
+        "missed_crises_per_day": 1.57,
+        "missed_cost_per_day_inr": 239340,
+        "daily_cost_inr": 985886,
+        "precision": 0.0769,
+        "recall": 0.9684
+      },
+      {
+        "threshold": 0.03,
+        "alerts_per_day": 581.0,
+        "analysts_required": 15,
+        "missed_crises_per_day": 2.62,
+        "missed_cost_per_day_inr": 398900,
+        "daily_cost_inr": 1087450,
+        "precision": 0.0813,
+        "recall": 0.9474
+      },
+      {
+        "threshold": 0.035,
+        "alerts_per_day": 557.4,
+        "analysts_required": 14,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1136317,
+        "precision": 0.0838,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.04,
+        "alerts_per_day": 544.3,
+        "analysts_required": 14,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1120571,
+        "precision": 0.0858,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.045,
+        "alerts_per_day": 528.5,
+        "analysts_required": 14,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1101675,
+        "precision": 0.0884,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.05,
+        "alerts_per_day": 516.5,
+        "analysts_required": 13,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1083989,
+        "precision": 0.0904,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.055,
+        "alerts_per_day": 504.9,
+        "analysts_required": 13,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1070132,
+        "precision": 0.0925,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.06,
+        "alerts_per_day": 493.4,
+        "analysts_required": 13,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1056276,
+        "precision": 0.0947,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.065,
+        "alerts_per_day": 482.4,
+        "analysts_required": 13,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1043049,
+        "precision": 0.0968,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.07,
+        "alerts_per_day": 469.2,
+        "analysts_required": 12,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1024103,
+        "precision": 0.0996,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.075,
+        "alerts_per_day": 430.4,
+        "analysts_required": 11,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 974295,
+        "precision": 0.1085,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.08,
+        "alerts_per_day": 405.7,
+        "analysts_required": 11,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 944692,
+        "precision": 0.1151,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.085,
+        "alerts_per_day": 400.5,
+        "analysts_required": 11,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 938394,
+        "precision": 0.1166,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.09,
+        "alerts_per_day": 383.2,
+        "analysts_required": 10,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 914409,
+        "precision": 0.1219,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.095,
+        "alerts_per_day": 382.1,
+        "analysts_required": 10,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 913149,
+        "precision": 0.1223,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.1,
+        "alerts_per_day": 368.5,
+        "analysts_required": 10,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 896773,
+        "precision": 0.1268,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.105,
+        "alerts_per_day": 360.1,
+        "analysts_required": 10,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 886696,
+        "precision": 0.1297,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.11,
+        "alerts_per_day": 358.0,
+        "analysts_required": 9,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 880976,
+        "precision": 0.1305,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.115,
+        "alerts_per_day": 348.5,
+        "analysts_required": 9,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 869639,
+        "precision": 0.134,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.12,
+        "alerts_per_day": 342.2,
+        "analysts_required": 9,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 862081,
+        "precision": 0.1365,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.125,
+        "alerts_per_day": 337.0,
+        "analysts_required": 9,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 855783,
+        "precision": 0.1386,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.13,
+        "alerts_per_day": 328.6,
+        "analysts_required": 9,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 845705,
+        "precision": 0.1422,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.135,
+        "alerts_per_day": 316.0,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 827389,
+        "precision": 0.1478,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.14,
+        "alerts_per_day": 312.8,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 823610,
+        "precision": 0.1493,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.145,
+        "alerts_per_day": 312.3,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 822980,
+        "precision": 0.1496,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.15,
+        "alerts_per_day": 311.2,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 821720,
+        "precision": 0.1501,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.155,
+        "alerts_per_day": 309.1,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 819201,
+        "precision": 0.1511,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.16,
+        "alerts_per_day": 302.3,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 811013,
+        "precision": 0.1545,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.165,
+        "alerts_per_day": 296.0,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 803455,
+        "precision": 0.1578,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.17,
+        "alerts_per_day": 292.4,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 799046,
+        "precision": 0.1598,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.175,
+        "alerts_per_day": 291.8,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 798416,
+        "precision": 0.1601,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.18,
+        "alerts_per_day": 291.8,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 798416,
+        "precision": 0.1601,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.185,
+        "alerts_per_day": 286.6,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 792118,
+        "precision": 0.163,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.19,
+        "alerts_per_day": 285.5,
+        "analysts_required": 8,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 790858,
+        "precision": 0.1636,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.195,
+        "alerts_per_day": 269.8,
+        "analysts_required": 7,
+        "missed_crises_per_day": 3.67,
+        "missed_cost_per_day_inr": 558460,
+        "daily_cost_inr": 849173,
+        "precision": 0.1712,
+        "recall": 0.9263
+      },
+      {
+        "threshold": 0.2,
+        "alerts_per_day": 267.2,
+        "analysts_required": 7,
+        "missed_crises_per_day": 3.67,
+        "missed_cost_per_day_inr": 558460,
+        "daily_cost_inr": 846024,
+        "precision": 0.1729,
+        "recall": 0.9263
+      },
+      {
+        "threshold": 0.205,
+        "alerts_per_day": 254.0,
+        "analysts_required": 7,
+        "missed_crises_per_day": 3.67,
+        "missed_cost_per_day_inr": 558460,
+        "daily_cost_inr": 830278,
+        "precision": 0.1818,
+        "recall": 0.9263
+      },
+      {
+        "threshold": 0.21,
+        "alerts_per_day": 253.0,
+        "analysts_required": 7,
+        "missed_crises_per_day": 3.67,
+        "missed_cost_per_day_inr": 558460,
+        "daily_cost_inr": 829018,
+        "precision": 0.1826,
+        "recall": 0.9263
+      },
+      {
+        "threshold": 0.215,
+        "alerts_per_day": 253.0,
+        "analysts_required": 7,
+        "missed_crises_per_day": 3.67,
+        "missed_cost_per_day_inr": 558460,
+        "daily_cost_inr": 829018,
+        "precision": 0.1826,
+        "recall": 0.9263
+      },
+      {
+        "threshold": 0.22,
+        "alerts_per_day": 211.0,
+        "analysts_required": 6,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1016660,
+        "precision": 0.2114,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.225,
+        "alerts_per_day": 211.0,
+        "analysts_required": 6,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1016660,
+        "precision": 0.2114,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.23,
+        "alerts_per_day": 202.1,
+        "analysts_required": 6,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1005953,
+        "precision": 0.2208,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.235,
+        "alerts_per_day": 201.0,
+        "analysts_required": 6,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1004693,
+        "precision": 0.2219,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.24,
+        "alerts_per_day": 201.0,
+        "analysts_required": 6,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1004693,
+        "precision": 0.2219,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.245,
+        "alerts_per_day": 198.4,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 998344,
+        "precision": 0.2249,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.25,
+        "alerts_per_day": 197.9,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 997714,
+        "precision": 0.2255,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.255,
+        "alerts_per_day": 192.6,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 991416,
+        "precision": 0.2316,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.26,
+        "alerts_per_day": 191.1,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 989526,
+        "precision": 0.2335,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.265,
+        "alerts_per_day": 189.5,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 987637,
+        "precision": 0.2355,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.27,
+        "alerts_per_day": 185.8,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 983228,
+        "precision": 0.2401,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.275,
+        "alerts_per_day": 185.8,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 983228,
+        "precision": 0.2401,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.28,
+        "alerts_per_day": 182.7,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 979449,
+        "precision": 0.2443,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.285,
+        "alerts_per_day": 181.1,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.77,
+        "missed_cost_per_day_inr": 877580,
+        "daily_cost_inr": 1057969,
+        "precision": 0.2435,
+        "recall": 0.8842
+      },
+      {
+        "threshold": 0.29,
+        "alerts_per_day": 178.5,
+        "analysts_required": 5,
+        "missed_crises_per_day": 5.77,
+        "missed_cost_per_day_inr": 877580,
+        "daily_cost_inr": 1054820,
+        "precision": 0.2471,
+        "recall": 0.8842
+      },
+      {
+        "threshold": 0.295,
+        "alerts_per_day": 163.8,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1117594,
+        "precision": 0.266,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.3,
+        "alerts_per_day": 163.2,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1197374,
+        "precision": 0.2637,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.305,
+        "alerts_per_day": 159.6,
+        "analysts_required": 4,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1189765,
+        "precision": 0.2697,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.31,
+        "alerts_per_day": 158.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1188506,
+        "precision": 0.2715,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.315,
+        "alerts_per_day": 157.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1187246,
+        "precision": 0.2733,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.32,
+        "alerts_per_day": 157.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1187246,
+        "precision": 0.2733,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.325,
+        "alerts_per_day": 157.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1187246,
+        "precision": 0.2733,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.33,
+        "alerts_per_day": 152.2,
+        "analysts_required": 4,
+        "missed_crises_per_day": 7.87,
+        "missed_cost_per_day_inr": 1123219,
+        "daily_cost_inr": 1268286,
+        "precision": 0.2759,
+        "recall": 0.8421
+      },
+      {
+        "threshold": 0.335,
+        "alerts_per_day": 151.7,
+        "analysts_required": 4,
+        "missed_crises_per_day": 7.87,
+        "missed_cost_per_day_inr": 1123219,
+        "daily_cost_inr": 1267656,
+        "precision": 0.2768,
+        "recall": 0.8421
+      },
+      {
+        "threshold": 0.34,
+        "alerts_per_day": 147.0,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1268915,
+        "precision": 0.2821,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.345,
+        "alerts_per_day": 144.3,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1265766,
+        "precision": 0.2873,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.35,
+        "alerts_per_day": 143.3,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1264507,
+        "precision": 0.2894,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.355,
+        "alerts_per_day": 142.8,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1263877,
+        "precision": 0.2904,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.36,
+        "alerts_per_day": 142.2,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1263247,
+        "precision": 0.2915,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.365,
+        "alerts_per_day": 141.7,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1262617,
+        "precision": 0.2926,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.37,
+        "alerts_per_day": 141.7,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1262617,
+        "precision": 0.2926,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.375,
+        "alerts_per_day": 141.7,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1262617,
+        "precision": 0.2926,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.38,
+        "alerts_per_day": 140.7,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1261357,
+        "precision": 0.2948,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.385,
+        "alerts_per_day": 140.7,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1129517,
+        "daily_cost_inr": 1261357,
+        "precision": 0.2948,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.39,
+        "alerts_per_day": 137.0,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1209297,
+        "daily_cost_inr": 1337358,
+        "precision": 0.2989,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.395,
+        "alerts_per_day": 136.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1209297,
+        "daily_cost_inr": 1336729,
+        "precision": 0.3,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.4,
+        "alerts_per_day": 136.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1209297,
+        "daily_cost_inr": 1336729,
+        "precision": 0.3,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.405,
+        "alerts_per_day": 135.9,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1209297,
+        "daily_cost_inr": 1336099,
+        "precision": 0.3012,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.41,
+        "alerts_per_day": 134.4,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1209297,
+        "daily_cost_inr": 1334209,
+        "precision": 0.3047,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.415,
+        "alerts_per_day": 132.8,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1209297,
+        "daily_cost_inr": 1332320,
+        "precision": 0.3083,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.42,
+        "alerts_per_day": 132.8,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1209297,
+        "daily_cost_inr": 1332320,
+        "precision": 0.3083,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.425,
+        "alerts_per_day": 132.3,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1209297,
+        "daily_cost_inr": 1331690,
+        "precision": 0.3095,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.43,
+        "alerts_per_day": 132.3,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1209297,
+        "daily_cost_inr": 1331690,
+        "precision": 0.3095,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.435,
+        "alerts_per_day": 130.7,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.45,
+        "missed_cost_per_day_inr": 1215596,
+        "daily_cost_inr": 1336729,
+        "precision": 0.3092,
+        "recall": 0.8105
+      },
+      {
+        "threshold": 0.44,
+        "alerts_per_day": 130.7,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.45,
+        "missed_cost_per_day_inr": 1215596,
+        "daily_cost_inr": 1336729,
+        "precision": 0.3092,
+        "recall": 0.8105
+      },
+      {
+        "threshold": 0.445,
+        "alerts_per_day": 127.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1339878,
+        "precision": 0.3128,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.45,
+        "alerts_per_day": 127.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1339878,
+        "precision": 0.3128,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.455,
+        "alerts_per_day": 127.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1339878,
+        "precision": 0.3128,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.46,
+        "alerts_per_day": 127.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1339878,
+        "precision": 0.3128,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.465,
+        "alerts_per_day": 127.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1339878,
+        "precision": 0.3128,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.47,
+        "alerts_per_day": 116.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.02,
+        "missed_cost_per_day_inr": 1381454,
+        "daily_cost_inr": 1484271,
+        "precision": 0.3333,
+        "recall": 0.7789
+      },
+      {
+        "threshold": 0.475,
+        "alerts_per_day": 115.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.02,
+        "missed_cost_per_day_inr": 1381454,
+        "daily_cost_inr": 1483011,
+        "precision": 0.3364,
+        "recall": 0.7789
+      },
+      {
+        "threshold": 0.48,
+        "alerts_per_day": 115.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.02,
+        "missed_cost_per_day_inr": 1381454,
+        "daily_cost_inr": 1483011,
+        "precision": 0.3364,
+        "recall": 0.7789
+      },
+      {
+        "threshold": 0.485,
+        "alerts_per_day": 115.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.02,
+        "missed_cost_per_day_inr": 1381454,
+        "daily_cost_inr": 1483011,
+        "precision": 0.3364,
+        "recall": 0.7789
+      },
+      {
+        "threshold": 0.49,
+        "alerts_per_day": 115.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.02,
+        "missed_cost_per_day_inr": 1381454,
+        "daily_cost_inr": 1483011,
+        "precision": 0.3364,
+        "recall": 0.7789
+      },
+      {
+        "threshold": 0.495,
+        "alerts_per_day": 114.9,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.02,
+        "missed_cost_per_day_inr": 1381454,
+        "daily_cost_inr": 1482381,
+        "precision": 0.3379,
+        "recall": 0.7789
+      },
+      {
+        "threshold": 0.5,
+        "alerts_per_day": 114.9,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.02,
+        "missed_cost_per_day_inr": 1381454,
+        "daily_cost_inr": 1482381,
+        "precision": 0.3379,
+        "recall": 0.7789
+      },
+      {
+        "threshold": 0.505,
+        "alerts_per_day": 105.0,
+        "analysts_required": 3,
+        "missed_crises_per_day": 12.07,
+        "missed_cost_per_day_inr": 1467533,
+        "daily_cost_inr": 1557752,
+        "precision": 0.36,
+        "recall": 0.7579
+      },
+      {
+        "threshold": 0.51,
+        "alerts_per_day": 105.0,
+        "analysts_required": 3,
+        "missed_crises_per_day": 12.07,
+        "missed_cost_per_day_inr": 1467533,
+        "daily_cost_inr": 1557752,
+        "precision": 0.36,
+        "recall": 0.7579
+      },
+      {
+        "threshold": 0.515,
+        "alerts_per_day": 105.0,
+        "analysts_required": 3,
+        "missed_crises_per_day": 12.07,
+        "missed_cost_per_day_inr": 1467533,
+        "daily_cost_inr": 1557752,
+        "precision": 0.36,
+        "recall": 0.7579
+      },
+      {
+        "threshold": 0.52,
+        "alerts_per_day": 105.0,
+        "analysts_required": 3,
+        "missed_crises_per_day": 12.07,
+        "missed_cost_per_day_inr": 1467533,
+        "daily_cost_inr": 1557752,
+        "precision": 0.36,
+        "recall": 0.7579
+      },
+      {
+        "threshold": 0.525,
+        "alerts_per_day": 105.0,
+        "analysts_required": 3,
+        "missed_crises_per_day": 12.07,
+        "missed_cost_per_day_inr": 1467533,
+        "daily_cost_inr": 1557752,
+        "precision": 0.36,
+        "recall": 0.7579
+      },
+      {
+        "threshold": 0.53,
+        "alerts_per_day": 94.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 13.12,
+        "missed_cost_per_day_inr": 1553611,
+        "daily_cost_inr": 1632494,
+        "precision": 0.3889,
+        "recall": 0.7368
+      },
+      {
+        "threshold": 0.535,
+        "alerts_per_day": 90.8,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.17,
+        "missed_cost_per_day_inr": 1639690,
+        "daily_cost_inr": 1715423,
+        "precision": 0.3931,
+        "recall": 0.7158
+      },
+      {
+        "threshold": 0.54,
+        "alerts_per_day": 90.8,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.17,
+        "missed_cost_per_day_inr": 1639690,
+        "daily_cost_inr": 1715423,
+        "precision": 0.3931,
+        "recall": 0.7158
+      },
+      {
+        "threshold": 0.545,
+        "alerts_per_day": 90.3,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1645988,
+        "daily_cost_inr": 1721721,
+        "precision": 0.3895,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.55,
+        "alerts_per_day": 86.6,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1645988,
+        "daily_cost_inr": 1717313,
+        "precision": 0.4061,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.555,
+        "alerts_per_day": 84.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1645988,
+        "daily_cost_inr": 1714793,
+        "precision": 0.4161,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.56,
+        "alerts_per_day": 84.0,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1645988,
+        "daily_cost_inr": 1714163,
+        "precision": 0.4188,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.565,
+        "alerts_per_day": 84.0,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1645988,
+        "daily_cost_inr": 1714163,
+        "precision": 0.4188,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.57,
+        "alerts_per_day": 83.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1645988,
+        "daily_cost_inr": 1713534,
+        "precision": 0.4214,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.575,
+        "alerts_per_day": 78.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.75,
+        "missed_cost_per_day_inr": 1732066,
+        "daily_cost_inr": 1791373,
+        "precision": 0.4362,
+        "recall": 0.6842
+      },
+      {
+        "threshold": 0.58,
+        "alerts_per_day": 78.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.75,
+        "missed_cost_per_day_inr": 1732066,
+        "daily_cost_inr": 1791373,
+        "precision": 0.4362,
+        "recall": 0.6842
+      },
+      {
+        "threshold": 0.585,
+        "alerts_per_day": 78.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.75,
+        "missed_cost_per_day_inr": 1732066,
+        "daily_cost_inr": 1791373,
+        "precision": 0.4362,
+        "recall": 0.6842
+      },
+      {
+        "threshold": 0.59,
+        "alerts_per_day": 78.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.75,
+        "missed_cost_per_day_inr": 1732066,
+        "daily_cost_inr": 1791373,
+        "precision": 0.4362,
+        "recall": 0.6842
+      },
+      {
+        "threshold": 0.595,
+        "alerts_per_day": 67.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1866115,
+        "precision": 0.4884,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.6,
+        "alerts_per_day": 66.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1864855,
+        "precision": 0.4961,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.605,
+        "alerts_per_day": 66.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1864855,
+        "precision": 0.4961,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.61,
+        "alerts_per_day": 66.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1864855,
+        "precision": 0.4961,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.615,
+        "alerts_per_day": 66.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1864855,
+        "precision": 0.4961,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.62,
+        "alerts_per_day": 66.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1864855,
+        "precision": 0.4961,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.625,
+        "alerts_per_day": 66.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1864855,
+        "precision": 0.4961,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.63,
+        "alerts_per_day": 66.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1864855,
+        "precision": 0.4961,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.635,
+        "alerts_per_day": 66.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1864855,
+        "precision": 0.4961,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.64,
+        "alerts_per_day": 66.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1818145,
+        "daily_cost_inr": 1864855,
+        "precision": 0.4961,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.645,
+        "alerts_per_day": 65.6,
+        "analysts_required": 2,
+        "missed_crises_per_day": 17.32,
+        "missed_cost_per_day_inr": 1824443,
+        "daily_cost_inr": 1870523,
+        "precision": 0.496,
+        "recall": 0.6526
+      },
+      {
+        "threshold": 0.65,
+        "alerts_per_day": 61.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 17.85,
+        "missed_cost_per_day_inr": 1904223,
+        "daily_cost_inr": 1946524,
+        "precision": 0.5169,
+        "recall": 0.6421
+      },
+      {
+        "threshold": 0.655,
+        "alerts_per_day": 57.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 18.9,
+        "missed_cost_per_day_inr": 2063784,
+        "daily_cost_inr": 2101676,
+        "precision": 0.5413,
+        "recall": 0.6211
+      },
+      {
+        "threshold": 0.66,
+        "alerts_per_day": 55.1,
+        "analysts_required": 2,
+        "missed_crises_per_day": 20.47,
+        "missed_cost_per_day_inr": 2156160,
+        "daily_cost_inr": 2193423,
+        "precision": 0.5333,
+        "recall": 0.5895
+      },
+      {
+        "threshold": 0.665,
+        "alerts_per_day": 53.0,
+        "analysts_required": 2,
+        "missed_crises_per_day": 21.52,
+        "missed_cost_per_day_inr": 2168757,
+        "daily_cost_inr": 2204760,
+        "precision": 0.5347,
+        "recall": 0.5684
+      },
+      {
+        "threshold": 0.67,
+        "alerts_per_day": 50.4,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.09,
+        "missed_cost_per_day_inr": 2187653,
+        "daily_cost_inr": 2222396,
+        "precision": 0.5312,
+        "recall": 0.5368
+      },
+      {
+        "threshold": 0.675,
+        "alerts_per_day": 49.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.09,
+        "missed_cost_per_day_inr": 2187653,
+        "daily_cost_inr": 2221766,
+        "precision": 0.5368,
+        "recall": 0.5368
+      },
+      {
+        "threshold": 0.68,
+        "alerts_per_day": 48.3,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2300286,
+        "precision": 0.5435,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.685,
+        "alerts_per_day": 48.3,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2300286,
+        "precision": 0.5435,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.69,
+        "alerts_per_day": 48.3,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2300286,
+        "precision": 0.5435,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.695,
+        "alerts_per_day": 47.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2299026,
+        "precision": 0.5556,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.7,
+        "alerts_per_day": 47.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2299026,
+        "precision": 0.5556,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.705,
+        "alerts_per_day": 46.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2297767,
+        "precision": 0.5682,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.71,
+        "alerts_per_day": 45.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2297137,
+        "precision": 0.5747,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.715,
+        "alerts_per_day": 45.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2297137,
+        "precision": 0.5747,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.72,
+        "alerts_per_day": 45.1,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2296507,
+        "precision": 0.5814,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.725,
+        "alerts_per_day": 40.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 25.19,
+        "missed_cost_per_day_inr": 2359810,
+        "daily_cost_inr": 2385735,
+        "precision": 0.6026,
+        "recall": 0.4947
+      },
+      {
+        "threshold": 0.73,
+        "alerts_per_day": 40.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 25.19,
+        "missed_cost_per_day_inr": 2359810,
+        "daily_cost_inr": 2385735,
+        "precision": 0.6026,
+        "recall": 0.4947
+      },
+      {
+        "threshold": 0.735,
+        "alerts_per_day": 40.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 25.19,
+        "missed_cost_per_day_inr": 2359810,
+        "daily_cost_inr": 2385735,
+        "precision": 0.6026,
+        "recall": 0.4947
+      },
+      {
+        "threshold": 0.74,
+        "alerts_per_day": 38.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.24,
+        "missed_cost_per_day_inr": 2519370,
+        "daily_cost_inr": 2540205,
+        "precision": 0.6164,
+        "recall": 0.4737
+      },
+      {
+        "threshold": 0.745,
+        "alerts_per_day": 37.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.24,
+        "missed_cost_per_day_inr": 2519370,
+        "daily_cost_inr": 2539575,
+        "precision": 0.625,
+        "recall": 0.4737
+      },
+      {
+        "threshold": 0.75,
+        "alerts_per_day": 37.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.24,
+        "missed_cost_per_day_inr": 2519370,
+        "daily_cost_inr": 2539575,
+        "precision": 0.625,
+        "recall": 0.4737
+      },
+      {
+        "threshold": 0.755,
+        "alerts_per_day": 36.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.77,
+        "missed_cost_per_day_inr": 2599150,
+        "daily_cost_inr": 2618096,
+        "precision": 0.6377,
+        "recall": 0.4632
+      },
+      {
+        "threshold": 0.76,
+        "alerts_per_day": 36.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.77,
+        "missed_cost_per_day_inr": 2599150,
+        "daily_cost_inr": 2618096,
+        "precision": 0.6377,
+        "recall": 0.4632
+      },
+      {
+        "threshold": 0.765,
+        "alerts_per_day": 35.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.77,
+        "missed_cost_per_day_inr": 2599150,
+        "daily_cost_inr": 2616836,
+        "precision": 0.6567,
+        "recall": 0.4632
+      },
+      {
+        "threshold": 0.77,
+        "alerts_per_day": 34.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2678930,
+        "daily_cost_inr": 2695986,
+        "precision": 0.6615,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.775,
+        "alerts_per_day": 34.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2678930,
+        "daily_cost_inr": 2695986,
+        "precision": 0.6615,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.78,
+        "alerts_per_day": 34.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2678930,
+        "daily_cost_inr": 2695986,
+        "precision": 0.6615,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.785,
+        "alerts_per_day": 34.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2678930,
+        "daily_cost_inr": 2695986,
+        "precision": 0.6615,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.79,
+        "alerts_per_day": 34.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2678930,
+        "daily_cost_inr": 2695986,
+        "precision": 0.6615,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.795,
+        "alerts_per_day": 33.6,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.82,
+        "missed_cost_per_day_inr": 2758710,
+        "daily_cost_inr": 2775766,
+        "precision": 0.6562,
+        "recall": 0.4421
+      },
+      {
+        "threshold": 0.8,
+        "alerts_per_day": 33.6,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.82,
+        "missed_cost_per_day_inr": 2758710,
+        "daily_cost_inr": 2775766,
+        "precision": 0.6562,
+        "recall": 0.4421
+      },
+      {
+        "threshold": 0.805,
+        "alerts_per_day": 30.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 28.87,
+        "missed_cost_per_day_inr": 2918270,
+        "daily_cost_inr": 2932807,
+        "precision": 0.6897,
+        "recall": 0.4211
+      },
+      {
+        "threshold": 0.81,
+        "alerts_per_day": 30.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 28.87,
+        "missed_cost_per_day_inr": 2918270,
+        "daily_cost_inr": 2932807,
+        "precision": 0.6897,
+        "recall": 0.4211
+      },
+      {
+        "threshold": 0.815,
+        "alerts_per_day": 30.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 28.87,
+        "missed_cost_per_day_inr": 2918270,
+        "daily_cost_inr": 2932807,
+        "precision": 0.6897,
+        "recall": 0.4211
+      },
+      {
+        "threshold": 0.82,
+        "alerts_per_day": 28.9,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 2930867,
+        "daily_cost_inr": 2944774,
+        "precision": 0.6909,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.825,
+        "alerts_per_day": 28.9,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 2930867,
+        "daily_cost_inr": 2944774,
+        "precision": 0.6909,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.83,
+        "alerts_per_day": 28.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 2930867,
+        "daily_cost_inr": 2944144,
+        "precision": 0.7037,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.835,
+        "alerts_per_day": 28.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 2930867,
+        "daily_cost_inr": 2944144,
+        "precision": 0.7037,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.84,
+        "alerts_per_day": 28.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 2930867,
+        "daily_cost_inr": 2944144,
+        "precision": 0.7037,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.845,
+        "alerts_per_day": 28.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 2930867,
+        "daily_cost_inr": 2944144,
+        "precision": 0.7037,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.85,
+        "alerts_per_day": 28.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 2930867,
+        "daily_cost_inr": 2944144,
+        "precision": 0.7037,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.855,
+        "alerts_per_day": 28.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 2930867,
+        "daily_cost_inr": 2944144,
+        "precision": 0.7037,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.86,
+        "alerts_per_day": 27.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 2930867,
+        "daily_cost_inr": 2943514,
+        "precision": 0.717,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.865,
+        "alerts_per_day": 26.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3022665,
+        "precision": 0.7255,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.87,
+        "alerts_per_day": 26.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3022665,
+        "precision": 0.7255,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.875,
+        "alerts_per_day": 26.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3022665,
+        "precision": 0.7255,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.88,
+        "alerts_per_day": 26.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3022035,
+        "precision": 0.74,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.885,
+        "alerts_per_day": 26.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3022035,
+        "precision": 0.74,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.89,
+        "alerts_per_day": 26.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3022035,
+        "precision": 0.74,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.895,
+        "alerts_per_day": 26.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3022035,
+        "precision": 0.74,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.9,
+        "alerts_per_day": 26.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3022035,
+        "precision": 0.74,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.905,
+        "alerts_per_day": 25.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3021405,
+        "precision": 0.7551,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.91,
+        "alerts_per_day": 25.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.44,
+        "missed_cost_per_day_inr": 3010647,
+        "daily_cost_inr": 3021405,
+        "precision": 0.7551,
+        "recall": 0.3895
+      },
+      {
+        "threshold": 0.915,
+        "alerts_per_day": 23.6,
+        "analysts_required": 1,
+        "missed_crises_per_day": 31.49,
+        "missed_cost_per_day_inr": 3096725,
+        "daily_cost_inr": 3106224,
+        "precision": 0.7778,
+        "recall": 0.3684
+      },
+      {
+        "threshold": 0.92,
+        "alerts_per_day": 23.6,
+        "analysts_required": 1,
+        "missed_crises_per_day": 31.49,
+        "missed_cost_per_day_inr": 3096725,
+        "daily_cost_inr": 3106224,
+        "precision": 0.7778,
+        "recall": 0.3684
+      },
+      {
+        "threshold": 0.925,
+        "alerts_per_day": 23.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 32.02,
+        "missed_cost_per_day_inr": 3176505,
+        "daily_cost_inr": 3186004,
+        "precision": 0.7727,
+        "recall": 0.3579
+      },
+      {
+        "threshold": 0.93,
+        "alerts_per_day": 23.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 32.02,
+        "missed_cost_per_day_inr": 3176505,
+        "daily_cost_inr": 3186004,
+        "precision": 0.7727,
+        "recall": 0.3579
+      },
+      {
+        "threshold": 0.935,
+        "alerts_per_day": 23.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 32.02,
+        "missed_cost_per_day_inr": 3176505,
+        "daily_cost_inr": 3186004,
+        "precision": 0.7727,
+        "recall": 0.3579
+      },
+      {
+        "threshold": 0.94,
+        "alerts_per_day": 23.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 32.02,
+        "missed_cost_per_day_inr": 3176505,
+        "daily_cost_inr": 3186004,
+        "precision": 0.7727,
+        "recall": 0.3579
+      },
+      {
+        "threshold": 0.945,
+        "alerts_per_day": 23.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 32.02,
+        "missed_cost_per_day_inr": 3176505,
+        "daily_cost_inr": 3186004,
+        "precision": 0.7727,
+        "recall": 0.3579
+      },
+      {
+        "threshold": 0.95,
+        "alerts_per_day": 21.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 33.59,
+        "missed_cost_per_day_inr": 3415846,
+        "daily_cost_inr": 3425344,
+        "precision": 0.7561,
+        "recall": 0.3263
+      },
+      {
+        "threshold": 0.951,
+        "alerts_per_day": 21.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 33.59,
+        "missed_cost_per_day_inr": 3415846,
+        "daily_cost_inr": 3425344,
+        "precision": 0.7561,
+        "recall": 0.3263
+      },
+      {
+        "threshold": 0.952,
+        "alerts_per_day": 21.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 33.59,
+        "missed_cost_per_day_inr": 3415846,
+        "daily_cost_inr": 3425344,
+        "precision": 0.7561,
+        "recall": 0.3263
+      },
+      {
+        "threshold": 0.953,
+        "alerts_per_day": 21.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 33.59,
+        "missed_cost_per_day_inr": 3415846,
+        "daily_cost_inr": 3425344,
+        "precision": 0.7561,
+        "recall": 0.3263
+      },
+      {
+        "threshold": 0.954,
+        "alerts_per_day": 21.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 33.59,
+        "missed_cost_per_day_inr": 3415846,
+        "daily_cost_inr": 3425344,
+        "precision": 0.7561,
+        "recall": 0.3263
+      },
+      {
+        "threshold": 0.955,
+        "alerts_per_day": 21.0,
+        "analysts_required": 1,
+        "missed_crises_per_day": 34.12,
+        "missed_cost_per_day_inr": 3495626,
+        "daily_cost_inr": 3505124,
+        "precision": 0.75,
+        "recall": 0.3158
+      },
+      {
+        "threshold": 0.956,
+        "alerts_per_day": 21.0,
+        "analysts_required": 1,
+        "missed_crises_per_day": 34.12,
+        "missed_cost_per_day_inr": 3495626,
+        "daily_cost_inr": 3505124,
+        "precision": 0.75,
+        "recall": 0.3158
+      },
+      {
+        "threshold": 0.957,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.958,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.959,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.96,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.961,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.962,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.963,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.964,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.965,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.966,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.967,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.968,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.969,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.94,
+        "missed_cost_per_day_inr": 4165358,
+        "daily_cost_inr": 4169188,
+        "precision": 0.9444,
+        "recall": 0.1789
+      },
+      {
+        "threshold": 0.97,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.971,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.972,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.973,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.974,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.975,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.976,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.977,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.978,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.979,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.98,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.981,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.982,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.983,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.984,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.985,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.986,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.987,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.988,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.989,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4245138,
+        "daily_cost_inr": 4248338,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.99,
+        "alerts_per_day": 5.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 44.61,
+        "missed_cost_per_day_inr": 4650337,
+        "daily_cost_inr": 4653537,
+        "precision": 1.0,
+        "recall": 0.1053
+      },
+      {
+        "threshold": 0.991,
+        "alerts_per_day": 5.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 44.61,
+        "missed_cost_per_day_inr": 4650337,
+        "daily_cost_inr": 4653537,
+        "precision": 1.0,
+        "recall": 0.1053
+      },
+      {
+        "threshold": 0.992,
+        "alerts_per_day": 4.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 45.66,
+        "missed_cost_per_day_inr": 4736415,
+        "daily_cost_inr": 4739615,
+        "precision": 1.0,
+        "recall": 0.0842
+      },
+      {
+        "threshold": 0.993,
+        "alerts_per_day": 2.6,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.24,
+        "missed_cost_per_day_inr": 4975756,
+        "daily_cost_inr": 4978956,
+        "precision": 1.0,
+        "recall": 0.0526
+      },
+      {
+        "threshold": 0.994,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 4982054,
+        "daily_cost_inr": 4985254,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.995,
+        "alerts_per_day": 1.0,
+        "analysts_required": 1,
+        "missed_crises_per_day": 48.81,
+        "missed_cost_per_day_inr": 5141614,
+        "daily_cost_inr": 5144814,
+        "precision": 1.0,
+        "recall": 0.0211
+      },
+      {
+        "threshold": 0.996,
+        "alerts_per_day": 1.0,
+        "analysts_required": 1,
+        "missed_crises_per_day": 48.81,
+        "missed_cost_per_day_inr": 5141614,
+        "daily_cost_inr": 5144814,
+        "precision": 1.0,
+        "recall": 0.0211
+      },
+      {
+        "threshold": 0.997,
+        "alerts_per_day": 0.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 49.34,
+        "missed_cost_per_day_inr": 5221394,
+        "daily_cost_inr": 5224594,
+        "precision": 1.0,
+        "recall": 0.0105
+      },
+      {
+        "threshold": 0.998,
+        "alerts_per_day": 0.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 49.34,
+        "missed_cost_per_day_inr": 5221394,
+        "daily_cost_inr": 5224594,
+        "precision": 1.0,
+        "recall": 0.0105
+      },
+      {
+        "threshold": 0.999,
+        "alerts_per_day": 0.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 49.34,
+        "missed_cost_per_day_inr": 5221394,
+        "daily_cost_inr": 5224594,
+        "precision": 1.0,
+        "recall": 0.0105
+      }
+    ],
+    "cost_optimal_operating_point": {
+      "threshold": 0.19,
+      "alerts_per_day": 285.5,
+      "analysts_required": 8,
+      "missed_crises_per_day": 3.15,
+      "missed_cost_per_day_inr": 478680,
+      "daily_cost_inr": 790858,
+      "precision": 0.1636,
+      "recall": 0.9368
+    },
+    "constrained_to_todays_desk": {
+      "threshold": 0.495,
+      "alerts_per_day": 114.9,
+      "analysts_required": 3,
+      "missed_crises_per_day": 11.02,
+      "missed_cost_per_day_inr": 1381454,
+      "daily_cost_inr": 1482381,
+      "precision": 0.3379,
+      "recall": 0.7789
+    },
+    "operating_point": {
+      "threshold": 0.19,
+      "precision": 0.4363,
+      "recall": 0.7739,
+      "f1": 0.558,
+      "alerts": 557,
+      "expected_cost_inr": 57176800,
+      "tn": 7374,
+      "fp": 314,
+      "fn": 71,
+      "tp": 243,
+      "alerts_per_day_projected": 285.5,
+      "analysts_required": 8,
+      "daily_cost_inr": 790858,
+      "recall_on_eligible": 0.9368,
+      "precision_on_eligible": 0.1636
+    }
+  },
+  "M2_gradient_boosting": {
+    "threshold": 0.005,
+    "precision": 0.1398,
+    "recall": 0.9904,
+    "f1": 0.2451,
+    "alerts": 2224,
+    "expected_cost_inr": 4695600,
+    "tn": 5775,
+    "fp": 1913,
+    "fn": 3,
+    "tp": 311,
+    "roc_auc": 0.9711,
+    "pr_auc": 0.6675,
+    "brier": 0.0209,
+    "at_0_50": {
+      "threshold": 0.5,
+      "precision": 0.7458,
+      "recall": 0.4204,
+      "f1": 0.5377,
+      "alerts": 177,
+      "expected_cost_inr": 145654000,
+      "tn": 7643,
+      "fp": 45,
+      "fn": 182,
+      "tp": 132
+    },
+    "cost_curve": [
+      {
+        "threshold": 0.005,
+        "cost": 4695600
+      },
+      {
+        "threshold": 0.01,
+        "cost": 6537600
+      },
+      {
+        "threshold": 0.015,
+        "cost": 9508400
+      },
+      {
+        "threshold": 0.02,
+        "cost": 11786000
+      },
+      {
+        "threshold": 0.025,
+        "cost": 14898400
+      },
+      {
+        "threshold": 0.03,
+        "cost": 14827600
+      },
+      {
+        "threshold": 0.035,
+        "cost": 14773600
+      },
+      {
+        "threshold": 0.04,
+        "cost": 17077600
+      },
+      {
+        "threshold": 0.045,
+        "cost": 17787600
+      },
+      {
+        "threshold": 0.05,
+        "cost": 18531200
+      },
+      {
+        "threshold": 0.055,
+        "cost": 21630400
+      },
+      {
+        "threshold": 0.06,
+        "cost": 21617200
+      },
+      {
+        "threshold": 0.065,
+        "cost": 25539200
+      },
+      {
+        "threshold": 0.07,
+        "cost": 26315200
+      },
+      {
+        "threshold": 0.075,
+        "cost": 27890000
+      },
+      {
+        "threshold": 0.08,
+        "cost": 30276800
+      },
+      {
+        "threshold": 0.085,
+        "cost": 31054000
+      },
+      {
+        "threshold": 0.09,
+        "cost": 33442000
+      },
+      {
+        "threshold": 0.095,
+        "cost": 35813200
+      },
+      {
+        "threshold": 0.1,
+        "cost": 37377200
+      },
+      {
+        "threshold": 0.105,
+        "cost": 38160400
+      },
+      {
+        "threshold": 0.11,
+        "cost": 40541200
+      },
+      {
+        "threshold": 0.115,
+        "cost": 41320800
+      },
+      {
+        "threshold": 0.12,
+        "cost": 41296800
+      },
+      {
+        "threshold": 0.125,
+        "cost": 41280000
+      },
+      {
+        "threshold": 0.13,
+        "cost": 44463200
+      },
+      {
+        "threshold": 0.135,
+        "cost": 44444000
+      },
+      {
+        "threshold": 0.14,
+        "cost": 46039200
+      },
+      {
+        "threshold": 0.145,
+        "cost": 50030800
+      },
+      {
+        "threshold": 0.15,
+        "cost": 50826000
+      },
+      {
+        "threshold": 0.155,
+        "cost": 52400800
+      },
+      {
+        "threshold": 0.16,
+        "cost": 53998400
+      },
+      {
+        "threshold": 0.165,
+        "cost": 54781600
+      },
+      {
+        "threshold": 0.17,
+        "cost": 55578000
+      },
+      {
+        "threshold": 0.175,
+        "cost": 58763600
+      },
+      {
+        "threshold": 0.18,
+        "cost": 61158800
+      },
+      {
+        "threshold": 0.185,
+        "cost": 61151600
+      },
+      {
+        "threshold": 0.19,
+        "cost": 61945600
+      },
+      {
+        "threshold": 0.195,
+        "cost": 61938400
+      },
+      {
+        "threshold": 0.2,
+        "cost": 62734800
+      },
+      {
+        "threshold": 0.205,
+        "cost": 65914400
+      },
+      {
+        "threshold": 0.21,
+        "cost": 65902400
+      },
+      {
+        "threshold": 0.215,
+        "cost": 67498800
+      },
+      {
+        "threshold": 0.22,
+        "cost": 68289200
+      },
+      {
+        "threshold": 0.225,
+        "cost": 69077200
+      },
+      {
+        "threshold": 0.23,
+        "cost": 70673600
+      },
+      {
+        "threshold": 0.235,
+        "cost": 73058000
+      },
+      {
+        "threshold": 0.24,
+        "cost": 74653200
+      },
+      {
+        "threshold": 0.245,
+        "cost": 77032800
+      },
+      {
+        "threshold": 0.25,
+        "cost": 77029200
+      },
+      {
+        "threshold": 0.255,
+        "cost": 81813600
+      },
+      {
+        "threshold": 0.26,
+        "cost": 81808800
+      },
+      {
+        "threshold": 0.265,
+        "cost": 81805200
+      },
+      {
+        "threshold": 0.27,
+        "cost": 81795600
+      },
+      {
+        "threshold": 0.275,
+        "cost": 85786000
+      },
+      {
+        "threshold": 0.28,
+        "cost": 87380000
+      },
+      {
+        "threshold": 0.285,
+        "cost": 88168000
+      },
+      {
+        "threshold": 0.29,
+        "cost": 88166800
+      },
+      {
+        "threshold": 0.295,
+        "cost": 89765600
+      },
+      {
+        "threshold": 0.3,
+        "cost": 90564400
+      },
+      {
+        "threshold": 0.305,
+        "cost": 92154800
+      },
+      {
+        "threshold": 0.31,
+        "cost": 95353600
+      },
+      {
+        "threshold": 0.315,
+        "cost": 95350000
+      },
+      {
+        "threshold": 0.32,
+        "cost": 95347600
+      },
+      {
+        "threshold": 0.325,
+        "cost": 95342800
+      },
+      {
+        "threshold": 0.33,
+        "cost": 96138000
+      },
+      {
+        "threshold": 0.335,
+        "cost": 99335600
+      },
+      {
+        "threshold": 0.34,
+        "cost": 100929600
+      },
+      {
+        "threshold": 0.345,
+        "cost": 101727200
+      },
+      {
+        "threshold": 0.35,
+        "cost": 103326000
+      },
+      {
+        "threshold": 0.355,
+        "cost": 103322400
+      },
+      {
+        "threshold": 0.36,
+        "cost": 104920000
+      },
+      {
+        "threshold": 0.365,
+        "cost": 105714000
+      },
+      {
+        "threshold": 0.37,
+        "cost": 108906800
+      },
+      {
+        "threshold": 0.375,
+        "cost": 108904400
+      },
+      {
+        "threshold": 0.38,
+        "cost": 110503200
+      },
+      {
+        "threshold": 0.385,
+        "cost": 112903200
+      },
+      {
+        "threshold": 0.39,
+        "cost": 112902000
+      },
+      {
+        "threshold": 0.395,
+        "cost": 116100800
+      },
+      {
+        "threshold": 0.4,
+        "cost": 116893600
+      },
+      {
+        "threshold": 0.405,
+        "cost": 118491200
+      },
+      {
+        "threshold": 0.41,
+        "cost": 119290000
+      },
+      {
+        "threshold": 0.415,
+        "cost": 120087600
+      },
+      {
+        "threshold": 0.42,
+        "cost": 122485200
+      },
+      {
+        "threshold": 0.425,
+        "cost": 124081600
+      },
+      {
+        "threshold": 0.43,
+        "cost": 126478000
+      },
+      {
+        "threshold": 0.435,
+        "cost": 127270800
+      },
+      {
+        "threshold": 0.44,
+        "cost": 127268400
+      },
+      {
+        "threshold": 0.445,
+        "cost": 129668400
+      },
+      {
+        "threshold": 0.45,
+        "cost": 132067200
+      },
+      {
+        "threshold": 0.455,
+        "cost": 132866000
+      },
+      {
+        "threshold": 0.46,
+        "cost": 137664800
+      },
+      {
+        "threshold": 0.465,
+        "cost": 140062400
+      },
+      {
+        "threshold": 0.47,
+        "cost": 140062400
+      },
+      {
+        "threshold": 0.475,
+        "cost": 140062400
+      },
+      {
+        "threshold": 0.48,
+        "cost": 142457600
+      },
+      {
+        "threshold": 0.485,
+        "cost": 143256400
+      },
+      {
+        "threshold": 0.49,
+        "cost": 144855200
+      },
+      {
+        "threshold": 0.495,
+        "cost": 144855200
+      },
+      {
+        "threshold": 0.5,
+        "cost": 145654000
+      },
+      {
+        "threshold": 0.505,
+        "cost": 145654000
+      },
+      {
+        "threshold": 0.51,
+        "cost": 147254000
+      },
+      {
+        "threshold": 0.515,
+        "cost": 148852800
+      },
+      {
+        "threshold": 0.52,
+        "cost": 148852800
+      },
+      {
+        "threshold": 0.525,
+        "cost": 149650400
+      },
+      {
+        "threshold": 0.53,
+        "cost": 151250400
+      },
+      {
+        "threshold": 0.535,
+        "cost": 152846800
+      },
+      {
+        "threshold": 0.54,
+        "cost": 152845600
+      },
+      {
+        "threshold": 0.545,
+        "cost": 153644400
+      },
+      {
+        "threshold": 0.55,
+        "cost": 153642000
+      },
+      {
+        "threshold": 0.555,
+        "cost": 154440800
+      },
+      {
+        "threshold": 0.56,
+        "cost": 155239600
+      },
+      {
+        "threshold": 0.565,
+        "cost": 156038400
+      },
+      {
+        "threshold": 0.57,
+        "cost": 156838400
+      },
+      {
+        "threshold": 0.575,
+        "cost": 158437200
+      },
+      {
+        "threshold": 0.58,
+        "cost": 158436000
+      },
+      {
+        "threshold": 0.585,
+        "cost": 159236000
+      },
+      {
+        "threshold": 0.59,
+        "cost": 160036000
+      },
+      {
+        "threshold": 0.595,
+        "cost": 160834800
+      },
+      {
+        "threshold": 0.6,
+        "cost": 161634800
+      },
+      {
+        "threshold": 0.605,
+        "cost": 161634800
+      },
+      {
+        "threshold": 0.61,
+        "cost": 162432400
+      },
+      {
+        "threshold": 0.615,
+        "cost": 162432400
+      },
+      {
+        "threshold": 0.62,
+        "cost": 163231200
+      },
+      {
+        "threshold": 0.625,
+        "cost": 164027600
+      },
+      {
+        "threshold": 0.63,
+        "cost": 164826400
+      },
+      {
+        "threshold": 0.635,
+        "cost": 165625200
+      },
+      {
+        "threshold": 0.64,
+        "cost": 167225200
+      },
+      {
+        "threshold": 0.645,
+        "cost": 170424000
+      },
+      {
+        "threshold": 0.65,
+        "cost": 171222800
+      },
+      {
+        "threshold": 0.655,
+        "cost": 172822800
+      },
+      {
+        "threshold": 0.66,
+        "cost": 174421600
+      },
+      {
+        "threshold": 0.665,
+        "cost": 175221600
+      },
+      {
+        "threshold": 0.67,
+        "cost": 176820400
+      },
+      {
+        "threshold": 0.675,
+        "cost": 177620400
+      },
+      {
+        "threshold": 0.68,
+        "cost": 180019200
+      },
+      {
+        "threshold": 0.685,
+        "cost": 180019200
+      },
+      {
+        "threshold": 0.69,
+        "cost": 181618000
+      },
+      {
+        "threshold": 0.695,
+        "cost": 182418000
+      },
+      {
+        "threshold": 0.7,
+        "cost": 184016800
+      },
+      {
+        "threshold": 0.705,
+        "cost": 184015600
+      },
+      {
+        "threshold": 0.71,
+        "cost": 184015600
+      },
+      {
+        "threshold": 0.715,
+        "cost": 185614400
+      },
+      {
+        "threshold": 0.72,
+        "cost": 187213200
+      },
+      {
+        "threshold": 0.725,
+        "cost": 188813200
+      },
+      {
+        "threshold": 0.73,
+        "cost": 188813200
+      },
+      {
+        "threshold": 0.735,
+        "cost": 190412000
+      },
+      {
+        "threshold": 0.74,
+        "cost": 190412000
+      },
+      {
+        "threshold": 0.745,
+        "cost": 192810800
+      },
+      {
+        "threshold": 0.75,
+        "cost": 194409600
+      },
+      {
+        "threshold": 0.755,
+        "cost": 194409600
+      },
+      {
+        "threshold": 0.76,
+        "cost": 194408400
+      },
+      {
+        "threshold": 0.765,
+        "cost": 196808400
+      },
+      {
+        "threshold": 0.77,
+        "cost": 199208400
+      },
+      {
+        "threshold": 0.775,
+        "cost": 200008400
+      },
+      {
+        "threshold": 0.78,
+        "cost": 200007200
+      },
+      {
+        "threshold": 0.785,
+        "cost": 200006000
+      },
+      {
+        "threshold": 0.79,
+        "cost": 200006000
+      },
+      {
+        "threshold": 0.795,
+        "cost": 202406000
+      },
+      {
+        "threshold": 0.8,
+        "cost": 203206000
+      },
+      {
+        "threshold": 0.805,
+        "cost": 204006000
+      },
+      {
+        "threshold": 0.81,
+        "cost": 204006000
+      },
+      {
+        "threshold": 0.815,
+        "cost": 204006000
+      },
+      {
+        "threshold": 0.82,
+        "cost": 204806000
+      },
+      {
+        "threshold": 0.825,
+        "cost": 205604800
+      },
+      {
+        "threshold": 0.83,
+        "cost": 206404800
+      },
+      {
+        "threshold": 0.835,
+        "cost": 207203600
+      },
+      {
+        "threshold": 0.84,
+        "cost": 207203600
+      },
+      {
+        "threshold": 0.845,
+        "cost": 208003600
+      },
+      {
+        "threshold": 0.85,
+        "cost": 208803600
+      },
+      {
+        "threshold": 0.855,
+        "cost": 210403600
+      },
+      {
+        "threshold": 0.86,
+        "cost": 212802400
+      },
+      {
+        "threshold": 0.865,
+        "cost": 212802400
+      },
+      {
+        "threshold": 0.87,
+        "cost": 212802400
+      },
+      {
+        "threshold": 0.875,
+        "cost": 214402400
+      },
+      {
+        "threshold": 0.88,
+        "cost": 214402400
+      },
+      {
+        "threshold": 0.885,
+        "cost": 216802400
+      },
+      {
+        "threshold": 0.89,
+        "cost": 221601200
+      },
+      {
+        "threshold": 0.895,
+        "cost": 222401200
+      },
+      {
+        "threshold": 0.9,
+        "cost": 222401200
+      },
+      {
+        "threshold": 0.905,
+        "cost": 224801200
+      },
+      {
+        "threshold": 0.91,
+        "cost": 225601200
+      },
+      {
+        "threshold": 0.915,
+        "cost": 226401200
+      },
+      {
+        "threshold": 0.92,
+        "cost": 227201200
+      },
+      {
+        "threshold": 0.925,
+        "cost": 227201200
+      },
+      {
+        "threshold": 0.93,
+        "cost": 228801200
+      },
+      {
+        "threshold": 0.935,
+        "cost": 228801200
+      },
+      {
+        "threshold": 0.94,
+        "cost": 230400000
+      },
+      {
+        "threshold": 0.945,
+        "cost": 236000000
+      },
+      {
+        "threshold": 0.95,
+        "cost": 236800000
+      },
+      {
+        "threshold": 0.951,
+        "cost": 236800000
+      },
+      {
+        "threshold": 0.952,
+        "cost": 236800000
+      },
+      {
+        "threshold": 0.953,
+        "cost": 236800000
+      },
+      {
+        "threshold": 0.954,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.955,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.956,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.957,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.958,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.959,
+        "cost": 238400000
+      },
+      {
+        "threshold": 0.96,
+        "cost": 239200000
+      },
+      {
+        "threshold": 0.961,
+        "cost": 239200000
+      },
+      {
+        "threshold": 0.962,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.963,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.964,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.965,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.966,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.967,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.968,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.969,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.97,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.971,
+        "cost": 240800000
+      },
+      {
+        "threshold": 0.972,
+        "cost": 244800000
+      },
+      {
+        "threshold": 0.973,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.974,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.975,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.976,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.977,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.978,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.979,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.98,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.981,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.982,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.983,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.984,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.985,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.986,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.987,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.988,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.989,
+        "cost": 245600000
+      },
+      {
+        "threshold": 0.99,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.991,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.992,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.993,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.994,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.995,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.996,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.997,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.998,
+        "cost": 248000000
+      },
+      {
+        "threshold": 0.999,
+        "cost": 248000000
+      }
+    ],
+    "economics": [
+      {
+        "threshold": 0.005,
+        "alerts_per_day": 1083.9,
+        "analysts_required": 28,
+        "missed_crises_per_day": 1.05,
+        "missed_cost_per_day_inr": 159560,
+        "daily_cost_inr": 1491209,
+        "precision": 0.045,
+        "recall": 0.9789
+      },
+      {
+        "threshold": 0.01,
+        "alerts_per_day": 862.4,
+        "analysts_required": 22,
+        "missed_crises_per_day": 1.57,
+        "missed_cost_per_day_inr": 239340,
+        "daily_cost_inr": 1286625,
+        "precision": 0.056,
+        "recall": 0.9684
+      },
+      {
+        "threshold": 0.015,
+        "alerts_per_day": 765.3,
+        "analysts_required": 20,
+        "missed_crises_per_day": 2.62,
+        "missed_cost_per_day_inr": 398900,
+        "daily_cost_inr": 1324524,
+        "precision": 0.0617,
+        "recall": 0.9474
+      },
+      {
+        "threshold": 0.02,
+        "alerts_per_day": 716.4,
+        "analysts_required": 18,
+        "missed_crises_per_day": 2.62,
+        "missed_cost_per_day_inr": 398900,
+        "daily_cost_inr": 1259549,
+        "precision": 0.0659,
+        "recall": 0.9474
+      },
+      {
+        "threshold": 0.025,
+        "alerts_per_day": 679.7,
+        "analysts_required": 17,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1292670,
+        "precision": 0.0687,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.03,
+        "alerts_per_day": 652.9,
+        "analysts_required": 17,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1260548,
+        "precision": 0.0715,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.035,
+        "alerts_per_day": 630.9,
+        "analysts_required": 16,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1230895,
+        "precision": 0.074,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.04,
+        "alerts_per_day": 592.1,
+        "analysts_required": 15,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1181086,
+        "precision": 0.0789,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.045,
+        "alerts_per_day": 553.2,
+        "analysts_required": 14,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1131278,
+        "precision": 0.0844,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.05,
+        "alerts_per_day": 532.2,
+        "analysts_required": 14,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1106084,
+        "precision": 0.0878,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.055,
+        "alerts_per_day": 489.7,
+        "analysts_required": 13,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1051867,
+        "precision": 0.0954,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.06,
+        "alerts_per_day": 485.0,
+        "analysts_required": 13,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1046198,
+        "precision": 0.0963,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.065,
+        "alerts_per_day": 449.3,
+        "analysts_required": 12,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 1000169,
+        "precision": 0.104,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.07,
+        "alerts_per_day": 438.8,
+        "analysts_required": 11,
+        "missed_crises_per_day": 3.15,
+        "missed_cost_per_day_inr": 478680,
+        "daily_cost_inr": 984372,
+        "precision": 0.1065,
+        "recall": 0.9368
+      },
+      {
+        "threshold": 0.075,
+        "alerts_per_day": 428.8,
+        "analysts_required": 11,
+        "missed_crises_per_day": 3.67,
+        "missed_cost_per_day_inr": 558460,
+        "daily_cost_inr": 1052815,
+        "precision": 0.1077,
+        "recall": 0.9263
+      },
+      {
+        "threshold": 0.08,
+        "alerts_per_day": 422.5,
+        "analysts_required": 11,
+        "missed_crises_per_day": 3.67,
+        "missed_cost_per_day_inr": 558460,
+        "daily_cost_inr": 1045257,
+        "precision": 0.1093,
+        "recall": 0.9263
+      },
+      {
+        "threshold": 0.085,
+        "alerts_per_day": 412.5,
+        "analysts_required": 11,
+        "missed_crises_per_day": 3.67,
+        "missed_cost_per_day_inr": 558460,
+        "daily_cost_inr": 1033290,
+        "precision": 0.112,
+        "recall": 0.9263
+      },
+      {
+        "threshold": 0.09,
+        "alerts_per_day": 405.7,
+        "analysts_required": 11,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 1105512,
+        "precision": 0.1125,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.095,
+        "alerts_per_day": 391.6,
+        "analysts_required": 10,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 1085306,
+        "precision": 0.1166,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.1,
+        "alerts_per_day": 375.3,
+        "analysts_required": 10,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 1065781,
+        "precision": 0.1217,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.105,
+        "alerts_per_day": 367.9,
+        "analysts_required": 10,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 1056963,
+        "precision": 0.1241,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.11,
+        "alerts_per_day": 358.0,
+        "analysts_required": 9,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 1041796,
+        "precision": 0.1276,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.115,
+        "alerts_per_day": 348.5,
+        "analysts_required": 9,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 1030459,
+        "precision": 0.131,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.12,
+        "alerts_per_day": 338.5,
+        "analysts_required": 9,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 1018492,
+        "precision": 0.1349,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.125,
+        "alerts_per_day": 332.2,
+        "analysts_required": 9,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 1010934,
+        "precision": 0.1374,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.13,
+        "alerts_per_day": 323.8,
+        "analysts_required": 9,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 1000856,
+        "precision": 0.141,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.135,
+        "alerts_per_day": 316.5,
+        "analysts_required": 8,
+        "missed_crises_per_day": 4.2,
+        "missed_cost_per_day_inr": 638240,
+        "daily_cost_inr": 988839,
+        "precision": 0.1443,
+        "recall": 0.9158
+      },
+      {
+        "threshold": 0.14,
+        "alerts_per_day": 313.3,
+        "analysts_required": 8,
+        "missed_crises_per_day": 4.72,
+        "missed_cost_per_day_inr": 718020,
+        "daily_cost_inr": 1065470,
+        "precision": 0.1441,
+        "recall": 0.9053
+      },
+      {
+        "threshold": 0.145,
+        "alerts_per_day": 307.6,
+        "analysts_required": 8,
+        "missed_crises_per_day": 4.72,
+        "missed_cost_per_day_inr": 718020,
+        "daily_cost_inr": 1058541,
+        "precision": 0.1468,
+        "recall": 0.9053
+      },
+      {
+        "threshold": 0.15,
+        "alerts_per_day": 305.5,
+        "analysts_required": 8,
+        "missed_crises_per_day": 4.72,
+        "missed_cost_per_day_inr": 718020,
+        "daily_cost_inr": 1056022,
+        "precision": 0.1478,
+        "recall": 0.9053
+      },
+      {
+        "threshold": 0.155,
+        "alerts_per_day": 293.9,
+        "analysts_required": 8,
+        "missed_crises_per_day": 4.72,
+        "missed_cost_per_day_inr": 718020,
+        "daily_cost_inr": 1042165,
+        "precision": 0.1536,
+        "recall": 0.9053
+      },
+      {
+        "threshold": 0.16,
+        "alerts_per_day": 292.4,
+        "analysts_required": 8,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1120686,
+        "precision": 0.1526,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.165,
+        "alerts_per_day": 286.1,
+        "analysts_required": 8,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1113128,
+        "precision": 0.156,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.17,
+        "alerts_per_day": 284.0,
+        "analysts_required": 8,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1110608,
+        "precision": 0.1571,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.175,
+        "alerts_per_day": 275.6,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1097331,
+        "precision": 0.1619,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.18,
+        "alerts_per_day": 271.9,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1092922,
+        "precision": 0.1641,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.185,
+        "alerts_per_day": 269.3,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1089773,
+        "precision": 0.1657,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.19,
+        "alerts_per_day": 266.1,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1085994,
+        "precision": 0.1677,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.195,
+        "alerts_per_day": 263.5,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1082844,
+        "precision": 0.1693,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.2,
+        "alerts_per_day": 261.9,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.25,
+        "missed_cost_per_day_inr": 797800,
+        "daily_cost_inr": 1080955,
+        "precision": 0.1703,
+        "recall": 0.8947
+      },
+      {
+        "threshold": 0.205,
+        "alerts_per_day": 253.0,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.77,
+        "missed_cost_per_day_inr": 877580,
+        "daily_cost_inr": 1150657,
+        "precision": 0.1743,
+        "recall": 0.8842
+      },
+      {
+        "threshold": 0.21,
+        "alerts_per_day": 248.3,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.77,
+        "missed_cost_per_day_inr": 877580,
+        "daily_cost_inr": 1144989,
+        "precision": 0.1776,
+        "recall": 0.8842
+      },
+      {
+        "threshold": 0.215,
+        "alerts_per_day": 245.6,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.77,
+        "missed_cost_per_day_inr": 877580,
+        "daily_cost_inr": 1141840,
+        "precision": 0.1795,
+        "recall": 0.8842
+      },
+      {
+        "threshold": 0.22,
+        "alerts_per_day": 240.9,
+        "analysts_required": 7,
+        "missed_crises_per_day": 5.77,
+        "missed_cost_per_day_inr": 877580,
+        "daily_cost_inr": 1136171,
+        "precision": 0.183,
+        "recall": 0.8842
+      },
+      {
+        "threshold": 0.225,
+        "alerts_per_day": 235.1,
+        "analysts_required": 6,
+        "missed_crises_per_day": 5.77,
+        "missed_cost_per_day_inr": 877580,
+        "daily_cost_inr": 1126043,
+        "precision": 0.1875,
+        "recall": 0.8842
+      },
+      {
+        "threshold": 0.23,
+        "alerts_per_day": 232.5,
+        "analysts_required": 6,
+        "missed_crises_per_day": 5.77,
+        "missed_cost_per_day_inr": 877580,
+        "daily_cost_inr": 1122894,
+        "precision": 0.1896,
+        "recall": 0.8842
+      },
+      {
+        "threshold": 0.235,
+        "alerts_per_day": 224.6,
+        "analysts_required": 6,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1193856,
+        "precision": 0.1939,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.24,
+        "alerts_per_day": 221.5,
+        "analysts_required": 6,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1190077,
+        "precision": 0.1967,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.245,
+        "alerts_per_day": 211.0,
+        "analysts_required": 6,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1177480,
+        "precision": 0.2065,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.25,
+        "alerts_per_day": 209.9,
+        "analysts_required": 6,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1176220,
+        "precision": 0.2075,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.255,
+        "alerts_per_day": 200.0,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1161053,
+        "precision": 0.2178,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.26,
+        "alerts_per_day": 197.9,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1158534,
+        "precision": 0.2202,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.265,
+        "alerts_per_day": 196.3,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1156644,
+        "precision": 0.2219,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.27,
+        "alerts_per_day": 192.1,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1151606,
+        "precision": 0.2268,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.275,
+        "alerts_per_day": 185.3,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.3,
+        "missed_cost_per_day_inr": 957360,
+        "daily_cost_inr": 1143418,
+        "precision": 0.2351,
+        "recall": 0.8737
+      },
+      {
+        "threshold": 0.28,
+        "alerts_per_day": 181.6,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1219419,
+        "precision": 0.237,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.285,
+        "alerts_per_day": 176.4,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1213120,
+        "precision": 0.244,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.29,
+        "alerts_per_day": 175.8,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1212490,
+        "precision": 0.2448,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.295,
+        "alerts_per_day": 174.3,
+        "analysts_required": 5,
+        "missed_crises_per_day": 6.82,
+        "missed_cost_per_day_inr": 1037140,
+        "daily_cost_inr": 1210601,
+        "precision": 0.247,
+        "recall": 0.8632
+      },
+      {
+        "threshold": 0.3,
+        "alerts_per_day": 173.2,
+        "analysts_required": 5,
+        "missed_crises_per_day": 7.35,
+        "missed_cost_per_day_inr": 1043439,
+        "daily_cost_inr": 1216269,
+        "precision": 0.2455,
+        "recall": 0.8526
+      },
+      {
+        "threshold": 0.305,
+        "alerts_per_day": 168.0,
+        "analysts_required": 5,
+        "missed_crises_per_day": 7.87,
+        "missed_cost_per_day_inr": 1049737,
+        "daily_cost_inr": 1216899,
+        "precision": 0.25,
+        "recall": 0.8421
+      },
+      {
+        "threshold": 0.31,
+        "alerts_per_day": 165.9,
+        "analysts_required": 5,
+        "missed_crises_per_day": 7.87,
+        "missed_cost_per_day_inr": 1049737,
+        "daily_cost_inr": 1214380,
+        "precision": 0.2532,
+        "recall": 0.8421
+      },
+      {
+        "threshold": 0.315,
+        "alerts_per_day": 164.3,
+        "analysts_required": 5,
+        "missed_crises_per_day": 7.87,
+        "missed_cost_per_day_inr": 1049737,
+        "daily_cost_inr": 1212490,
+        "precision": 0.2556,
+        "recall": 0.8421
+      },
+      {
+        "threshold": 0.32,
+        "alerts_per_day": 163.2,
+        "analysts_required": 5,
+        "missed_crises_per_day": 7.87,
+        "missed_cost_per_day_inr": 1049737,
+        "daily_cost_inr": 1211231,
+        "precision": 0.2572,
+        "recall": 0.8421
+      },
+      {
+        "threshold": 0.325,
+        "alerts_per_day": 161.7,
+        "analysts_required": 5,
+        "missed_crises_per_day": 7.87,
+        "missed_cost_per_day_inr": 1049737,
+        "daily_cost_inr": 1209341,
+        "precision": 0.2597,
+        "recall": 0.8421
+      },
+      {
+        "threshold": 0.33,
+        "alerts_per_day": 159.0,
+        "analysts_required": 4,
+        "missed_crises_per_day": 7.87,
+        "missed_cost_per_day_inr": 1049737,
+        "daily_cost_inr": 1202992,
+        "precision": 0.264,
+        "recall": 0.8421
+      },
+      {
+        "threshold": 0.335,
+        "alerts_per_day": 155.9,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1056035,
+        "daily_cost_inr": 1206141,
+        "precision": 0.266,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.34,
+        "alerts_per_day": 152.7,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1056035,
+        "daily_cost_inr": 1202362,
+        "precision": 0.2715,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.345,
+        "alerts_per_day": 151.2,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.4,
+        "missed_cost_per_day_inr": 1056035,
+        "daily_cost_inr": 1200473,
+        "precision": 0.2743,
+        "recall": 0.8316
+      },
+      {
+        "threshold": 0.35,
+        "alerts_per_day": 149.6,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1062334,
+        "daily_cost_inr": 1205511,
+        "precision": 0.2737,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.355,
+        "alerts_per_day": 148.0,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1062334,
+        "daily_cost_inr": 1203622,
+        "precision": 0.2766,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.36,
+        "alerts_per_day": 145.9,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1062334,
+        "daily_cost_inr": 1201102,
+        "precision": 0.2806,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.365,
+        "alerts_per_day": 142.8,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1062334,
+        "daily_cost_inr": 1197323,
+        "precision": 0.2868,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.37,
+        "alerts_per_day": 137.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1062334,
+        "daily_cost_inr": 1191025,
+        "precision": 0.2977,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.375,
+        "alerts_per_day": 136.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1062334,
+        "daily_cost_inr": 1189765,
+        "precision": 0.3,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.38,
+        "alerts_per_day": 134.9,
+        "analysts_required": 4,
+        "missed_crises_per_day": 8.92,
+        "missed_cost_per_day_inr": 1062334,
+        "daily_cost_inr": 1187876,
+        "precision": 0.3035,
+        "recall": 0.8211
+      },
+      {
+        "threshold": 0.385,
+        "alerts_per_day": 133.3,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.45,
+        "missed_cost_per_day_inr": 1142114,
+        "daily_cost_inr": 1266396,
+        "precision": 0.3031,
+        "recall": 0.8105
+      },
+      {
+        "threshold": 0.39,
+        "alerts_per_day": 132.8,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.45,
+        "missed_cost_per_day_inr": 1142114,
+        "daily_cost_inr": 1265766,
+        "precision": 0.3043,
+        "recall": 0.8105
+      },
+      {
+        "threshold": 0.395,
+        "alerts_per_day": 130.2,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1343027,
+        "precision": 0.3065,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.4,
+        "alerts_per_day": 126.5,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1338618,
+        "precision": 0.3154,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.405,
+        "alerts_per_day": 124.4,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1336099,
+        "precision": 0.3207,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.41,
+        "alerts_per_day": 123.3,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1334839,
+        "precision": 0.3234,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.415,
+        "alerts_per_day": 121.8,
+        "analysts_required": 4,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1332949,
+        "precision": 0.3276,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.42,
+        "alerts_per_day": 119.1,
+        "analysts_required": 3,
+        "missed_crises_per_day": 9.97,
+        "missed_cost_per_day_inr": 1221894,
+        "daily_cost_inr": 1326600,
+        "precision": 0.3348,
+        "recall": 0.8
+      },
+      {
+        "threshold": 0.425,
+        "alerts_per_day": 116.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.02,
+        "missed_cost_per_day_inr": 1381454,
+        "daily_cost_inr": 1484271,
+        "precision": 0.3333,
+        "recall": 0.7789
+      },
+      {
+        "threshold": 0.43,
+        "alerts_per_day": 113.4,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.55,
+        "missed_cost_per_day_inr": 1461234,
+        "daily_cost_inr": 1560902,
+        "precision": 0.338,
+        "recall": 0.7684
+      },
+      {
+        "threshold": 0.435,
+        "alerts_per_day": 109.7,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.55,
+        "missed_cost_per_day_inr": 1461234,
+        "daily_cost_inr": 1556493,
+        "precision": 0.3493,
+        "recall": 0.7684
+      },
+      {
+        "threshold": 0.44,
+        "alerts_per_day": 108.6,
+        "analysts_required": 3,
+        "missed_crises_per_day": 11.55,
+        "missed_cost_per_day_inr": 1461234,
+        "daily_cost_inr": 1555233,
+        "precision": 0.3527,
+        "recall": 0.7684
+      },
+      {
+        "threshold": 0.445,
+        "alerts_per_day": 107.1,
+        "analysts_required": 3,
+        "missed_crises_per_day": 12.07,
+        "missed_cost_per_day_inr": 1541014,
+        "daily_cost_inr": 1633753,
+        "precision": 0.3529,
+        "recall": 0.7579
+      },
+      {
+        "threshold": 0.45,
+        "alerts_per_day": 105.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 12.07,
+        "missed_cost_per_day_inr": 1541014,
+        "daily_cost_inr": 1631864,
+        "precision": 0.3582,
+        "recall": 0.7579
+      },
+      {
+        "threshold": 0.455,
+        "alerts_per_day": 104.4,
+        "analysts_required": 3,
+        "missed_crises_per_day": 12.6,
+        "missed_cost_per_day_inr": 1547313,
+        "daily_cost_inr": 1637533,
+        "precision": 0.3568,
+        "recall": 0.7474
+      },
+      {
+        "threshold": 0.46,
+        "alerts_per_day": 100.8,
+        "analysts_required": 3,
+        "missed_crises_per_day": 13.12,
+        "missed_cost_per_day_inr": 1627093,
+        "daily_cost_inr": 1713534,
+        "precision": 0.3646,
+        "recall": 0.7368
+      },
+      {
+        "threshold": 0.465,
+        "alerts_per_day": 98.7,
+        "analysts_required": 3,
+        "missed_crises_per_day": 13.65,
+        "missed_cost_per_day_inr": 1633391,
+        "daily_cost_inr": 1717942,
+        "precision": 0.367,
+        "recall": 0.7263
+      },
+      {
+        "threshold": 0.47,
+        "alerts_per_day": 98.7,
+        "analysts_required": 3,
+        "missed_crises_per_day": 13.65,
+        "missed_cost_per_day_inr": 1633391,
+        "daily_cost_inr": 1717942,
+        "precision": 0.367,
+        "recall": 0.7263
+      },
+      {
+        "threshold": 0.475,
+        "alerts_per_day": 98.7,
+        "analysts_required": 3,
+        "missed_crises_per_day": 13.65,
+        "missed_cost_per_day_inr": 1633391,
+        "daily_cost_inr": 1717942,
+        "precision": 0.367,
+        "recall": 0.7263
+      },
+      {
+        "threshold": 0.48,
+        "alerts_per_day": 95.0,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.17,
+        "missed_cost_per_day_inr": 1639690,
+        "daily_cost_inr": 1720462,
+        "precision": 0.3757,
+        "recall": 0.7158
+      },
+      {
+        "threshold": 0.485,
+        "alerts_per_day": 94.0,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.17,
+        "missed_cost_per_day_inr": 1639690,
+        "daily_cost_inr": 1719202,
+        "precision": 0.3799,
+        "recall": 0.7158
+      },
+      {
+        "threshold": 0.49,
+        "alerts_per_day": 92.4,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.17,
+        "missed_cost_per_day_inr": 1639690,
+        "daily_cost_inr": 1717313,
+        "precision": 0.3864,
+        "recall": 0.7158
+      },
+      {
+        "threshold": 0.495,
+        "alerts_per_day": 92.4,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.17,
+        "missed_cost_per_day_inr": 1639690,
+        "daily_cost_inr": 1717313,
+        "precision": 0.3864,
+        "recall": 0.7158
+      },
+      {
+        "threshold": 0.5,
+        "alerts_per_day": 91.3,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1719470,
+        "daily_cost_inr": 1796463,
+        "precision": 0.3851,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.505,
+        "alerts_per_day": 91.3,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1719470,
+        "daily_cost_inr": 1796463,
+        "precision": 0.3851,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.51,
+        "alerts_per_day": 90.3,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1719470,
+        "daily_cost_inr": 1795203,
+        "precision": 0.3895,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.515,
+        "alerts_per_day": 88.7,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1719470,
+        "daily_cost_inr": 1793314,
+        "precision": 0.3964,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.52,
+        "alerts_per_day": 88.7,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1719470,
+        "daily_cost_inr": 1793314,
+        "precision": 0.3964,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.525,
+        "alerts_per_day": 87.1,
+        "analysts_required": 3,
+        "missed_crises_per_day": 14.7,
+        "missed_cost_per_day_inr": 1719470,
+        "daily_cost_inr": 1791424,
+        "precision": 0.4036,
+        "recall": 0.7053
+      },
+      {
+        "threshold": 0.53,
+        "alerts_per_day": 86.1,
+        "analysts_required": 3,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1870574,
+        "precision": 0.4024,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.535,
+        "alerts_per_day": 83.5,
+        "analysts_required": 3,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1867425,
+        "precision": 0.4151,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.54,
+        "alerts_per_day": 82.9,
+        "analysts_required": 3,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1866795,
+        "precision": 0.4177,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.545,
+        "alerts_per_day": 81.9,
+        "analysts_required": 3,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1865536,
+        "precision": 0.4231,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.55,
+        "alerts_per_day": 80.8,
+        "analysts_required": 3,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1864276,
+        "precision": 0.4286,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.555,
+        "alerts_per_day": 79.8,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1859816,
+        "precision": 0.4342,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.56,
+        "alerts_per_day": 78.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1858556,
+        "precision": 0.44,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.565,
+        "alerts_per_day": 77.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1857297,
+        "precision": 0.4459,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.57,
+        "alerts_per_day": 77.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1856667,
+        "precision": 0.449,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.575,
+        "alerts_per_day": 75.6,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1854777,
+        "precision": 0.4583,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.58,
+        "alerts_per_day": 75.1,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1854148,
+        "precision": 0.4615,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.585,
+        "alerts_per_day": 74.5,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1853518,
+        "precision": 0.4648,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.59,
+        "alerts_per_day": 74.0,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1852888,
+        "precision": 0.4681,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.595,
+        "alerts_per_day": 73.0,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.22,
+        "missed_cost_per_day_inr": 1799250,
+        "daily_cost_inr": 1851628,
+        "precision": 0.4748,
+        "recall": 0.6947
+      },
+      {
+        "threshold": 0.6,
+        "alerts_per_day": 72.4,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.75,
+        "missed_cost_per_day_inr": 1879030,
+        "daily_cost_inr": 1931408,
+        "precision": 0.471,
+        "recall": 0.6842
+      },
+      {
+        "threshold": 0.605,
+        "alerts_per_day": 72.4,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.75,
+        "missed_cost_per_day_inr": 1879030,
+        "daily_cost_inr": 1931408,
+        "precision": 0.471,
+        "recall": 0.6842
+      },
+      {
+        "threshold": 0.61,
+        "alerts_per_day": 70.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.75,
+        "missed_cost_per_day_inr": 1879030,
+        "daily_cost_inr": 1929519,
+        "precision": 0.4815,
+        "recall": 0.6842
+      },
+      {
+        "threshold": 0.615,
+        "alerts_per_day": 70.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 15.75,
+        "missed_cost_per_day_inr": 1879030,
+        "daily_cost_inr": 1929519,
+        "precision": 0.4815,
+        "recall": 0.6842
+      },
+      {
+        "threshold": 0.62,
+        "alerts_per_day": 69.8,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.27,
+        "missed_cost_per_day_inr": 1885328,
+        "daily_cost_inr": 1935187,
+        "precision": 0.4812,
+        "recall": 0.6737
+      },
+      {
+        "threshold": 0.625,
+        "alerts_per_day": 68.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.27,
+        "missed_cost_per_day_inr": 1885328,
+        "daily_cost_inr": 1933298,
+        "precision": 0.4923,
+        "recall": 0.6737
+      },
+      {
+        "threshold": 0.63,
+        "alerts_per_day": 67.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.27,
+        "missed_cost_per_day_inr": 1885328,
+        "daily_cost_inr": 1932038,
+        "precision": 0.5,
+        "recall": 0.6737
+      },
+      {
+        "threshold": 0.635,
+        "alerts_per_day": 66.1,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.27,
+        "missed_cost_per_day_inr": 1885328,
+        "daily_cost_inr": 1930778,
+        "precision": 0.5079,
+        "recall": 0.6737
+      },
+      {
+        "threshold": 0.64,
+        "alerts_per_day": 65.1,
+        "analysts_required": 2,
+        "missed_crises_per_day": 16.8,
+        "missed_cost_per_day_inr": 1891627,
+        "daily_cost_inr": 1936447,
+        "precision": 0.5081,
+        "recall": 0.6632
+      },
+      {
+        "threshold": 0.645,
+        "alerts_per_day": 62.5,
+        "analysts_required": 2,
+        "missed_crises_per_day": 17.32,
+        "missed_cost_per_day_inr": 1897925,
+        "daily_cost_inr": 1940226,
+        "precision": 0.521,
+        "recall": 0.6526
+      },
+      {
+        "threshold": 0.65,
+        "alerts_per_day": 61.4,
+        "analysts_required": 2,
+        "missed_crises_per_day": 17.32,
+        "missed_cost_per_day_inr": 1897925,
+        "daily_cost_inr": 1938966,
+        "precision": 0.5299,
+        "recall": 0.6526
+      },
+      {
+        "threshold": 0.655,
+        "alerts_per_day": 60.4,
+        "analysts_required": 2,
+        "missed_crises_per_day": 17.32,
+        "missed_cost_per_day_inr": 1897925,
+        "daily_cost_inr": 1937707,
+        "precision": 0.5391,
+        "recall": 0.6526
+      },
+      {
+        "threshold": 0.66,
+        "alerts_per_day": 58.8,
+        "analysts_required": 2,
+        "missed_crises_per_day": 18.37,
+        "missed_cost_per_day_inr": 1984003,
+        "daily_cost_inr": 2023155,
+        "precision": 0.5357,
+        "recall": 0.6316
+      },
+      {
+        "threshold": 0.665,
+        "alerts_per_day": 58.3,
+        "analysts_required": 2,
+        "missed_crises_per_day": 18.37,
+        "missed_cost_per_day_inr": 1984003,
+        "daily_cost_inr": 2022525,
+        "precision": 0.5405,
+        "recall": 0.6316
+      },
+      {
+        "threshold": 0.67,
+        "alerts_per_day": 56.7,
+        "analysts_required": 2,
+        "missed_crises_per_day": 19.42,
+        "missed_cost_per_day_inr": 1996600,
+        "daily_cost_inr": 2034492,
+        "precision": 0.537,
+        "recall": 0.6105
+      },
+      {
+        "threshold": 0.675,
+        "alerts_per_day": 56.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 19.42,
+        "missed_cost_per_day_inr": 1996600,
+        "daily_cost_inr": 2033863,
+        "precision": 0.5421,
+        "recall": 0.6105
+      },
+      {
+        "threshold": 0.68,
+        "alerts_per_day": 54.1,
+        "analysts_required": 2,
+        "missed_crises_per_day": 20.47,
+        "missed_cost_per_day_inr": 2009197,
+        "daily_cost_inr": 2045200,
+        "precision": 0.5437,
+        "recall": 0.5895
+      },
+      {
+        "threshold": 0.685,
+        "alerts_per_day": 54.1,
+        "analysts_required": 2,
+        "missed_crises_per_day": 20.47,
+        "missed_cost_per_day_inr": 2009197,
+        "daily_cost_inr": 2045200,
+        "precision": 0.5437,
+        "recall": 0.5895
+      },
+      {
+        "threshold": 0.69,
+        "alerts_per_day": 52.5,
+        "analysts_required": 2,
+        "missed_crises_per_day": 20.99,
+        "missed_cost_per_day_inr": 2015496,
+        "daily_cost_inr": 2050239,
+        "precision": 0.55,
+        "recall": 0.5789
+      },
+      {
+        "threshold": 0.695,
+        "alerts_per_day": 52.0,
+        "analysts_required": 2,
+        "missed_crises_per_day": 20.99,
+        "missed_cost_per_day_inr": 2015496,
+        "daily_cost_inr": 2049609,
+        "precision": 0.5556,
+        "recall": 0.5789
+      },
+      {
+        "threshold": 0.7,
+        "alerts_per_day": 50.4,
+        "analysts_required": 2,
+        "missed_crises_per_day": 22.04,
+        "missed_cost_per_day_inr": 2101574,
+        "daily_cost_inr": 2135057,
+        "precision": 0.5521,
+        "recall": 0.5579
+      },
+      {
+        "threshold": 0.705,
+        "alerts_per_day": 49.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 22.04,
+        "missed_cost_per_day_inr": 2101574,
+        "daily_cost_inr": 2134427,
+        "precision": 0.5579,
+        "recall": 0.5579
+      },
+      {
+        "threshold": 0.71,
+        "alerts_per_day": 49.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 22.04,
+        "missed_cost_per_day_inr": 2101574,
+        "daily_cost_inr": 2134427,
+        "precision": 0.5579,
+        "recall": 0.5579
+      },
+      {
+        "threshold": 0.715,
+        "alerts_per_day": 48.8,
+        "analysts_required": 2,
+        "missed_crises_per_day": 22.04,
+        "missed_cost_per_day_inr": 2101574,
+        "daily_cost_inr": 2133168,
+        "precision": 0.5699,
+        "recall": 0.5579
+      },
+      {
+        "threshold": 0.72,
+        "alerts_per_day": 47.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 22.57,
+        "missed_cost_per_day_inr": 2107873,
+        "daily_cost_inr": 2138207,
+        "precision": 0.5778,
+        "recall": 0.5474
+      },
+      {
+        "threshold": 0.725,
+        "alerts_per_day": 46.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2297767,
+        "precision": 0.5682,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.73,
+        "alerts_per_day": 46.2,
+        "analysts_required": 2,
+        "missed_crises_per_day": 23.62,
+        "missed_cost_per_day_inr": 2267433,
+        "daily_cost_inr": 2297767,
+        "precision": 0.5682,
+        "recall": 0.5263
+      },
+      {
+        "threshold": 0.735,
+        "alerts_per_day": 44.6,
+        "analysts_required": 2,
+        "missed_crises_per_day": 24.67,
+        "missed_cost_per_day_inr": 2426993,
+        "daily_cost_inr": 2456697,
+        "precision": 0.5647,
+        "recall": 0.5053
+      },
+      {
+        "threshold": 0.74,
+        "alerts_per_day": 44.6,
+        "analysts_required": 2,
+        "missed_crises_per_day": 24.67,
+        "missed_cost_per_day_inr": 2426993,
+        "daily_cost_inr": 2456697,
+        "precision": 0.5647,
+        "recall": 0.5053
+      },
+      {
+        "threshold": 0.745,
+        "alerts_per_day": 42.5,
+        "analysts_required": 2,
+        "missed_crises_per_day": 25.72,
+        "missed_cost_per_day_inr": 2586553,
+        "daily_cost_inr": 2614997,
+        "precision": 0.5679,
+        "recall": 0.4842
+      },
+      {
+        "threshold": 0.75,
+        "alerts_per_day": 40.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 26.24,
+        "missed_cost_per_day_inr": 2666333,
+        "daily_cost_inr": 2693518,
+        "precision": 0.5769,
+        "recall": 0.4737
+      },
+      {
+        "threshold": 0.755,
+        "alerts_per_day": 40.9,
+        "analysts_required": 2,
+        "missed_crises_per_day": 26.24,
+        "missed_cost_per_day_inr": 2666333,
+        "daily_cost_inr": 2693518,
+        "precision": 0.5769,
+        "recall": 0.4737
+      },
+      {
+        "threshold": 0.76,
+        "alerts_per_day": 40.4,
+        "analysts_required": 2,
+        "missed_crises_per_day": 26.24,
+        "missed_cost_per_day_inr": 2666333,
+        "daily_cost_inr": 2692888,
+        "precision": 0.5844,
+        "recall": 0.4737
+      },
+      {
+        "threshold": 0.765,
+        "alerts_per_day": 38.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.77,
+        "missed_cost_per_day_inr": 2672631,
+        "daily_cost_inr": 2694727,
+        "precision": 0.5946,
+        "recall": 0.4632
+      },
+      {
+        "threshold": 0.77,
+        "alerts_per_day": 37.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.77,
+        "missed_cost_per_day_inr": 2672631,
+        "daily_cost_inr": 2692837,
+        "precision": 0.6197,
+        "recall": 0.4632
+      },
+      {
+        "threshold": 0.775,
+        "alerts_per_day": 36.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.77,
+        "missed_cost_per_day_inr": 2672631,
+        "daily_cost_inr": 2692207,
+        "precision": 0.6286,
+        "recall": 0.4632
+      },
+      {
+        "threshold": 0.78,
+        "alerts_per_day": 36.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.77,
+        "missed_cost_per_day_inr": 2672631,
+        "daily_cost_inr": 2691577,
+        "precision": 0.6377,
+        "recall": 0.4632
+      },
+      {
+        "threshold": 0.785,
+        "alerts_per_day": 35.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.77,
+        "missed_cost_per_day_inr": 2672631,
+        "daily_cost_inr": 2690948,
+        "precision": 0.6471,
+        "recall": 0.4632
+      },
+      {
+        "threshold": 0.79,
+        "alerts_per_day": 35.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 26.77,
+        "missed_cost_per_day_inr": 2672631,
+        "daily_cost_inr": 2690948,
+        "precision": 0.6471,
+        "recall": 0.4632
+      },
+      {
+        "threshold": 0.795,
+        "alerts_per_day": 34.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2752411,
+        "daily_cost_inr": 2769468,
+        "precision": 0.6615,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.8,
+        "alerts_per_day": 33.6,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2752411,
+        "daily_cost_inr": 2768838,
+        "precision": 0.6719,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.805,
+        "alerts_per_day": 33.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2752411,
+        "daily_cost_inr": 2768208,
+        "precision": 0.6825,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.81,
+        "alerts_per_day": 33.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2752411,
+        "daily_cost_inr": 2768208,
+        "precision": 0.6825,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.815,
+        "alerts_per_day": 33.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.29,
+        "missed_cost_per_day_inr": 2752411,
+        "daily_cost_inr": 2768208,
+        "precision": 0.6825,
+        "recall": 0.4526
+      },
+      {
+        "threshold": 0.82,
+        "alerts_per_day": 32.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 27.82,
+        "missed_cost_per_day_inr": 2758710,
+        "daily_cost_inr": 2774507,
+        "precision": 0.6774,
+        "recall": 0.4421
+      },
+      {
+        "threshold": 0.825,
+        "alerts_per_day": 31.5,
+        "analysts_required": 1,
+        "missed_crises_per_day": 28.34,
+        "missed_cost_per_day_inr": 2838490,
+        "daily_cost_inr": 2853657,
+        "precision": 0.6833,
+        "recall": 0.4316
+      },
+      {
+        "threshold": 0.83,
+        "alerts_per_day": 31.0,
+        "analysts_required": 1,
+        "missed_crises_per_day": 28.34,
+        "missed_cost_per_day_inr": 2838490,
+        "daily_cost_inr": 2853027,
+        "precision": 0.6949,
+        "recall": 0.4316
+      },
+      {
+        "threshold": 0.835,
+        "alerts_per_day": 29.9,
+        "analysts_required": 1,
+        "missed_crises_per_day": 28.34,
+        "missed_cost_per_day_inr": 2838490,
+        "daily_cost_inr": 2851767,
+        "precision": 0.7193,
+        "recall": 0.4316
+      },
+      {
+        "threshold": 0.84,
+        "alerts_per_day": 29.9,
+        "analysts_required": 1,
+        "missed_crises_per_day": 28.34,
+        "missed_cost_per_day_inr": 2838490,
+        "daily_cost_inr": 2851767,
+        "precision": 0.7193,
+        "recall": 0.4316
+      },
+      {
+        "threshold": 0.845,
+        "alerts_per_day": 29.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 28.87,
+        "missed_cost_per_day_inr": 2918270,
+        "daily_cost_inr": 2931547,
+        "precision": 0.7143,
+        "recall": 0.4211
+      },
+      {
+        "threshold": 0.85,
+        "alerts_per_day": 28.9,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.39,
+        "missed_cost_per_day_inr": 2998050,
+        "daily_cost_inr": 3011327,
+        "precision": 0.7091,
+        "recall": 0.4105
+      },
+      {
+        "threshold": 0.855,
+        "alerts_per_day": 27.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 29.92,
+        "missed_cost_per_day_inr": 3077830,
+        "daily_cost_inr": 3090478,
+        "precision": 0.717,
+        "recall": 0.4
+      },
+      {
+        "threshold": 0.86,
+        "alerts_per_day": 25.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.97,
+        "missed_cost_per_day_inr": 3163909,
+        "daily_cost_inr": 3175296,
+        "precision": 0.7347,
+        "recall": 0.3789
+      },
+      {
+        "threshold": 0.865,
+        "alerts_per_day": 25.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.97,
+        "missed_cost_per_day_inr": 3163909,
+        "daily_cost_inr": 3175296,
+        "precision": 0.7347,
+        "recall": 0.3789
+      },
+      {
+        "threshold": 0.87,
+        "alerts_per_day": 25.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 30.97,
+        "missed_cost_per_day_inr": 3163909,
+        "daily_cost_inr": 3175296,
+        "precision": 0.7347,
+        "recall": 0.3789
+      },
+      {
+        "threshold": 0.875,
+        "alerts_per_day": 24.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 32.02,
+        "missed_cost_per_day_inr": 3323469,
+        "daily_cost_inr": 3334857,
+        "precision": 0.7234,
+        "recall": 0.3579
+      },
+      {
+        "threshold": 0.88,
+        "alerts_per_day": 24.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 32.02,
+        "missed_cost_per_day_inr": 3323469,
+        "daily_cost_inr": 3334857,
+        "precision": 0.7234,
+        "recall": 0.3579
+      },
+      {
+        "threshold": 0.885,
+        "alerts_per_day": 23.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 33.07,
+        "missed_cost_per_day_inr": 3336065,
+        "daily_cost_inr": 3346824,
+        "precision": 0.7273,
+        "recall": 0.3368
+      },
+      {
+        "threshold": 0.89,
+        "alerts_per_day": 19.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 34.64,
+        "missed_cost_per_day_inr": 3428442,
+        "daily_cost_inr": 3436681,
+        "precision": 0.7838,
+        "recall": 0.3053
+      },
+      {
+        "threshold": 0.895,
+        "alerts_per_day": 18.9,
+        "analysts_required": 1,
+        "missed_crises_per_day": 34.64,
+        "missed_cost_per_day_inr": 3428442,
+        "daily_cost_inr": 3436051,
+        "precision": 0.8056,
+        "recall": 0.3053
+      },
+      {
+        "threshold": 0.9,
+        "alerts_per_day": 18.9,
+        "analysts_required": 1,
+        "missed_crises_per_day": 34.64,
+        "missed_cost_per_day_inr": 3428442,
+        "daily_cost_inr": 3436051,
+        "precision": 0.8056,
+        "recall": 0.3053
+      },
+      {
+        "threshold": 0.905,
+        "alerts_per_day": 17.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 34.64,
+        "missed_cost_per_day_inr": 3428442,
+        "daily_cost_inr": 3434792,
+        "precision": 0.8529,
+        "recall": 0.3053
+      },
+      {
+        "threshold": 0.91,
+        "alerts_per_day": 17.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 34.64,
+        "missed_cost_per_day_inr": 3428442,
+        "daily_cost_inr": 3434162,
+        "precision": 0.8788,
+        "recall": 0.3053
+      },
+      {
+        "threshold": 0.915,
+        "alerts_per_day": 16.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 35.17,
+        "missed_cost_per_day_inr": 3508222,
+        "daily_cost_inr": 3513942,
+        "precision": 0.875,
+        "recall": 0.2947
+      },
+      {
+        "threshold": 0.92,
+        "alerts_per_day": 16.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 35.69,
+        "missed_cost_per_day_inr": 3588002,
+        "daily_cost_inr": 3593722,
+        "precision": 0.871,
+        "recall": 0.2842
+      },
+      {
+        "threshold": 0.925,
+        "alerts_per_day": 16.3,
+        "analysts_required": 1,
+        "missed_crises_per_day": 35.69,
+        "missed_cost_per_day_inr": 3588002,
+        "daily_cost_inr": 3593722,
+        "precision": 0.871,
+        "recall": 0.2842
+      },
+      {
+        "threshold": 0.93,
+        "alerts_per_day": 15.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 36.74,
+        "missed_cost_per_day_inr": 3747563,
+        "daily_cost_inr": 3753282,
+        "precision": 0.8621,
+        "recall": 0.2632
+      },
+      {
+        "threshold": 0.935,
+        "alerts_per_day": 15.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 36.74,
+        "missed_cost_per_day_inr": 3747563,
+        "daily_cost_inr": 3753282,
+        "precision": 0.8621,
+        "recall": 0.2632
+      },
+      {
+        "threshold": 0.94,
+        "alerts_per_day": 13.6,
+        "analysts_required": 1,
+        "missed_crises_per_day": 37.79,
+        "missed_cost_per_day_inr": 3833641,
+        "daily_cost_inr": 3838731,
+        "precision": 0.8846,
+        "recall": 0.2421
+      },
+      {
+        "threshold": 0.945,
+        "alerts_per_day": 10.0,
+        "analysts_required": 1,
+        "missed_crises_per_day": 39.89,
+        "missed_cost_per_day_inr": 4079280,
+        "daily_cost_inr": 4082480,
+        "precision": 1.0,
+        "recall": 0.2
+      },
+      {
+        "threshold": 0.95,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.41,
+        "missed_cost_per_day_inr": 4159060,
+        "daily_cost_inr": 4162260,
+        "precision": 1.0,
+        "recall": 0.1895
+      },
+      {
+        "threshold": 0.951,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.41,
+        "missed_cost_per_day_inr": 4159060,
+        "daily_cost_inr": 4162260,
+        "precision": 1.0,
+        "recall": 0.1895
+      },
+      {
+        "threshold": 0.952,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.41,
+        "missed_cost_per_day_inr": 4159060,
+        "daily_cost_inr": 4162260,
+        "precision": 1.0,
+        "recall": 0.1895
+      },
+      {
+        "threshold": 0.953,
+        "alerts_per_day": 9.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 40.41,
+        "missed_cost_per_day_inr": 4159060,
+        "daily_cost_inr": 4162260,
+        "precision": 1.0,
+        "recall": 0.1895
+      },
+      {
+        "threshold": 0.954,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4318620,
+        "daily_cost_inr": 4321820,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.955,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4318620,
+        "daily_cost_inr": 4321820,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.956,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4318620,
+        "daily_cost_inr": 4321820,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.957,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4318620,
+        "daily_cost_inr": 4321820,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.958,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4318620,
+        "daily_cost_inr": 4321820,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.959,
+        "alerts_per_day": 8.4,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.46,
+        "missed_cost_per_day_inr": 4318620,
+        "daily_cost_inr": 4321820,
+        "precision": 1.0,
+        "recall": 0.1684
+      },
+      {
+        "threshold": 0.96,
+        "alerts_per_day": 7.9,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.99,
+        "missed_cost_per_day_inr": 4398400,
+        "daily_cost_inr": 4401600,
+        "precision": 1.0,
+        "recall": 0.1579
+      },
+      {
+        "threshold": 0.961,
+        "alerts_per_day": 7.9,
+        "analysts_required": 1,
+        "missed_crises_per_day": 41.99,
+        "missed_cost_per_day_inr": 4398400,
+        "daily_cost_inr": 4401600,
+        "precision": 1.0,
+        "recall": 0.1579
+      },
+      {
+        "threshold": 0.962,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.963,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.964,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.965,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.966,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.967,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.968,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.969,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.97,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.971,
+        "alerts_per_day": 6.8,
+        "analysts_required": 1,
+        "missed_crises_per_day": 43.04,
+        "missed_cost_per_day_inr": 4484478,
+        "daily_cost_inr": 4487678,
+        "precision": 1.0,
+        "recall": 0.1368
+      },
+      {
+        "threshold": 0.972,
+        "alerts_per_day": 4.2,
+        "analysts_required": 1,
+        "missed_crises_per_day": 45.66,
+        "missed_cost_per_day_inr": 4809897,
+        "daily_cost_inr": 4813097,
+        "precision": 1.0,
+        "recall": 0.0842
+      },
+      {
+        "threshold": 0.973,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.974,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.975,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.976,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.977,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.978,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.979,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.98,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.981,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.982,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.983,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.984,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.985,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.986,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.987,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.988,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.989,
+        "alerts_per_day": 3.7,
+        "analysts_required": 1,
+        "missed_crises_per_day": 46.19,
+        "missed_cost_per_day_inr": 4889677,
+        "daily_cost_inr": 4892877,
+        "precision": 1.0,
+        "recall": 0.0737
+      },
+      {
+        "threshold": 0.99,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.991,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.992,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.993,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.994,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.995,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.996,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.997,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.998,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      },
+      {
+        "threshold": 0.999,
+        "alerts_per_day": 2.1,
+        "analysts_required": 1,
+        "missed_crises_per_day": 47.76,
+        "missed_cost_per_day_inr": 5055536,
+        "daily_cost_inr": 5058736,
+        "precision": 1.0,
+        "recall": 0.0421
+      }
+    ],
+    "cost_optimal_operating_point": {
+      "threshold": 0.07,
+      "alerts_per_day": 438.8,
+      "analysts_required": 11,
+      "missed_crises_per_day": 3.15,
+      "missed_cost_per_day_inr": 478680,
+      "daily_cost_inr": 984372,
+      "precision": 0.1065,
+      "recall": 0.9368
+    },
+    "constrained_to_todays_desk": {
+      "threshold": 0.42,
+      "alerts_per_day": 119.1,
+      "analysts_required": 3,
+      "missed_crises_per_day": 9.97,
+      "missed_cost_per_day_inr": 1221894,
+      "daily_cost_inr": 1326600,
+      "precision": 0.3348,
+      "recall": 0.8
+    },
+    "operating_point": {
+      "threshold": 0.07,
+      "precision": 0.3212,
+      "recall": 0.8981,
+      "f1": 0.4732,
+      "alerts": 878,
+      "expected_cost_inr": 26315200,
+      "tn": 7092,
+      "fp": 596,
+      "fn": 32,
+      "tp": 282,
+      "alerts_per_day_projected": 438.8,
+      "analysts_required": 11,
+      "daily_cost_inr": 984372,
+      "recall_on_eligible": 0.9368,
+      "precision_on_eligible": 0.1065
+    }
+  },
+  "logistic_coefficients": [
+    {
+      "feature": "log_followers",
+      "coef": 1.5717
+    },
+    {
+      "feature": "author_prior_virality",
+      "coef": 0.6174
+    },
+    {
+      "feature": "log_reposts_1h",
+      "coef": 0.4105
+    },
+    {
+      "feature": "log_likes_1h",
+      "coef": 0.3653
+    },
+    {
+      "feature": "is_negative",
+      "coef": 0.3428
+    },
+    {
+      "feature": "topic_promo_query",
+      "coef": -0.3075
+    },
+    {
+      "feature": "has_media",
+      "coef": 0.287
+    },
+    {
+      "feature": "topic_food_safety",
+      "coef": 0.271
+    },
+    {
+      "feature": "topic_rider_behaviour",
+      "coef": 0.263
+    },
+    {
+      "feature": "repost_ratio",
+      "coef": 0.2276
+    },
+    {
+      "feature": "total_eng_1h",
+      "coef": 0.2154
+    },
+    {
+      "feature": "topic_praise",
+      "coef": -0.1819
+    },
+    {
+      "feature": "topic_pricing_surge",
+      "coef": 0.1799
+    },
+    {
+      "feature": "log_replies_1h",
+      "coef": 0.1769
+    },
+    {
+      "feature": "is_prime_hour",
+      "coef": 0.1655
+    },
+    {
+      "feature": "author_verified",
+      "coef": 0.1374
+    },
+    {
+      "feature": "topic_discrimination_allegation",
+      "coef": 0.1219
+    },
+    {
+      "feature": "topic_app_bug",
+      "coef": -0.0744
+    },
+    {
+      "feature": "plat_instagram",
+      "coef": 0.0513
+    },
+    {
+      "feature": "reply_ratio",
+      "coef": -0.0475
+    },
+    {
+      "feature": "is_hinglish",
+      "coef": 0.0413
+    },
+    {
+      "feature": "plat_youtube",
+      "coef": -0.0373
+    },
+    {
+      "feature": "topic_delivery_delay",
+      "coef": 0.0358
+    },
+    {
+      "feature": "topic_payment_refund",
+      "coef": -0.0271
+    },
+    {
+      "feature": "topic_customer_service",
+      "coef": 0.0266
+    },
+    {
+      "feature": "plat_x",
+      "coef": -0.0133
+    },
+    {
+      "feature": "plat_playstore",
+      "coef": -0.0078
+    },
+    {
+      "feature": "plat_reddit",
+      "coef": -0.0067
+    },
+    {
+      "feature": "has_question",
+      "coef": -0.0035
+    },
+    {
+      "feature": "engagement_rate_1h",
+      "coef": -0.0025
+    },
+    {
+      "feature": "text_len",
+      "coef": -0.0003
+    },
+    {
+      "feature": "has_exclaim",
+      "coef": 0.0
+    }
+  ],
+  "cost_assumptions": {
+    "COST_FN_inr": 800000,
+    "COST_FP_inr": 1200,
+    "SEV1_expected_miss_cost_inr": 152000,
+    "ratio_sev1_miss_to_false_alarm": 126.7,
+    "daily_mention_volume": 4200,
+    "alerts_per_analyst_day": 40,
+    "analyst_cost_per_day_inr": 3200,
+    "desk_capacity_today": 120
+  },
+  "winner": "M1_logistic",
+  "chosen_threshold": 0.19,
+  "baseline_comparison": {
+    "B1_rule_recall": 0.2526,
+    "model_recall": 0.9368,
+    "B1_rule_precision": 0.32,
+    "model_precision": 0.1636
+  },
+  "split": {
+    "type": "temporal_80_20",
+    "train_rows": 32007,
+    "test_rows": 8002,
+    "train_viral_rate": 0.0379,
+    "test_viral_rate": 0.0392
+  },
+  "sensitivity_to_miss_cost": [
+    {
+      "miss_cost_multiplier": 0.5,
+      "threshold": 0.21,
+      "recall": 0.926,
+      "precision": 0.183,
+      "alerts_per_day": 253.0,
+      "analysts_required": 7,
+      "daily_cost_inr": 549788
+    },
+    {
+      "miss_cost_multiplier": 0.75,
+      "threshold": 0.19,
+      "recall": 0.937,
+      "precision": 0.164,
+      "alerts_per_day": 285.5,
+      "analysts_required": 8,
+      "daily_cost_inr": 671188
+    },
+    {
+      "miss_cost_multiplier": 1.0,
+      "threshold": 0.19,
+      "recall": 0.937,
+      "precision": 0.164,
+      "alerts_per_day": 285.5,
+      "analysts_required": 8,
+      "daily_cost_inr": 790858
+    },
+    {
+      "miss_cost_multiplier": 1.5,
+      "threshold": 0.015,
+      "recall": 1.0,
+      "precision": 0.061,
+      "alerts_per_day": 815.1,
+      "analysts_required": 21,
+      "daily_cost_inr": 985510
+    },
+    {
+      "miss_cost_multiplier": 2.0,
+      "threshold": 0.015,
+      "recall": 1.0,
+      "precision": 0.061,
+      "alerts_per_day": 815.1,
+      "analysts_required": 21,
+      "daily_cost_inr": 985510
+    }
+  ],
+  "sensitivity_conclusion": "Halving or doubling every miss cost moves the chosen threshold only within 0.015-0.21, so the operating point is not an artefact of the cost guesses."
+}
